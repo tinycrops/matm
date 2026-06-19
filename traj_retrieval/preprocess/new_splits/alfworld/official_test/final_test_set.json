@@ -1,0 +1,2468 @@
+[
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_012519_974044",
+    "variation_id": "variation_id_f72c4dc2946205ce71e07748582448e1",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-Pan-None-CounterTop-14/trial_T20190907_012519_974044/game.tw-pddl",
+    "floor_plan": "FloorPlan14",
+    "goal": "Place two pans on a counter.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_201550_622420",
+    "variation_id": "variation_id_dc0abe59f5d080ce65f1c817957729d8",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-Laptop-None-DeskLamp-328/trial_T20190908_201550_622420/game.tw-pddl",
+    "floor_plan": "FloorPlan328",
+    "goal": "Pick up a laptop and turn on a lamp",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190907_150418_457594",
+    "variation_id": "variation_id_23dee5917b5993b23b196534adc67f81",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-Vase-None-DeskLamp-303/trial_T20190907_150418_457594/game.tw-pddl",
+    "floor_plan": "FloorPlan303",
+    "goal": "Turn on the desk lamp while holding a yellow disc",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190909_044602_338962",
+    "variation_id": "variation_id_a46e02b99b44661d5cd8b355b124e847",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-TissueBox-None-Toilet-426/trial_T20190909_044602_338962/game.tw-pddl",
+    "floor_plan": "FloorPlan426",
+    "goal": "Move two tissue boxes from the green cabinet counter top to the toilet",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190911_131350_027076",
+    "variation_id": "variation_id_db9c3e72efb8387d8a9af4eb0a704f5d",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-DiningTable-27/trial_T20190911_131350_027076/game.tw-pddl",
+    "floor_plan": "FloorPlan27",
+    "goal": "put clean spoon on the table",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_124340_258012",
+    "variation_id": "variation_id_ec43fce6f0695ad53cd01fe4e0caa987",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124340_258012/game.tw-pddl",
+    "floor_plan": "FloorPlan201",
+    "goal": "Place a credit card on a chair.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_164104_229696",
+    "variation_id": "variation_id_19d0d7726d6830c69516d129c89970d5",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Box-None-Dresser-224/trial_T20190907_164104_229696/game.tw-pddl",
+    "floor_plan": "FloorPlan224",
+    "goal": "move a box from the couch to the dresser",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_010644_297017",
+    "variation_id": "variation_id_5143e27a09443286f694aa8d099b0fd6",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190909_010644_297017/game.tw-pddl",
+    "floor_plan": "FloorPlan227",
+    "goal": "Put the credit card in the drawer.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_070946_578973",
+    "variation_id": "variation_id_6edcfd8fa8851004b174aa60ef3a6f7e",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Plate-None-Cabinet-1/trial_T20190908_070946_578973/game.tw-pddl",
+    "floor_plan": "FloorPlan1",
+    "goal": "Put a heated white plate in a cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_065232_689984",
+    "variation_id": "variation_id_8cadafe45b15aae3e604576c6978e848",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-Knife-None-Drawer-18/trial_T20190907_065232_689984/game.tw-pddl",
+    "floor_plan": "FloorPlan18",
+    "goal": "place two knifes in the kitchen drawer",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_164840_568811",
+    "variation_id": "variation_id_3f2960b36bcbf8e66f329a7a585fe846",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-DiningTable-4/trial_T20190909_164840_568811/game.tw-pddl",
+    "floor_plan": "FloorPlan4",
+    "goal": "get ladle, wash it, return it to wooden table",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_004531_429065",
+    "variation_id": "variation_id_1842aa8b83f8e31c972cc72e8b44075a",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Pot-None-DiningTable-21/trial_T20190909_004531_429065/game.tw-pddl",
+    "floor_plan": "FloorPlan21",
+    "goal": "Put a cold pot on a table.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_230702_962704",
+    "variation_id": "variation_id_2ff8e742ad7912c37de53c290585797e",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-Bowl-None-DeskLamp-316/trial_T20190908_230702_962704/game.tw-pddl",
+    "floor_plan": "FloorPlan316",
+    "goal": "Examine a bowl by the light of a desk lamp.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_012524_159092",
+    "variation_id": "variation_id_85afaa63923144f403eaee82a78e55ba",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-Microwave-18/trial_T20190909_012524_159092/game.tw-pddl",
+    "floor_plan": "FloorPlan18",
+    "goal": "Put a cold tomato in the microwave.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_233922_171295",
+    "variation_id": "variation_id_358a51642ce74fd5011622938e1982e3",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Fork-None-CounterTop-23/trial_T20190908_233922_171295/game.tw-pddl",
+    "floor_plan": "FloorPlan23",
+    "goal": "Place a rinsed fork on a counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_014451_271080",
+    "variation_id": "variation_id_c5d0a95e0061350d4cdb534e6a330140",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Potato-None-Fridge-12/trial_T20190908_014451_271080/game.tw-pddl",
+    "floor_plan": "FloorPlan12",
+    "goal": "cook the potato with microwave, put the potato in the refrigerator",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190906_181233_363875",
+    "variation_id": "variation_id_2cfb81001d27486627cc3c8c96deb45a",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/game.tw-pddl",
+    "floor_plan": "FloorPlan302",
+    "goal": "Put two books on a desk.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190906_192817_654400",
+    "variation_id": "variation_id_d9823cd3f193f670bc7a0cdda73718a9",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Cup-None-Microwave-17/trial_T20190906_192817_654400/game.tw-pddl",
+    "floor_plan": "FloorPlan17",
+    "goal": "Take the cup out of the microwave, put it in the fridge, back in the microwave.",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_060234_011675",
+    "variation_id": "variation_id_5bd8effb9ab2e6874c3d9ed2df1eca17",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060234_011675/game.tw-pddl",
+    "floor_plan": "FloorPlan26",
+    "goal": "Put a heated apple on the table. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_124829_632660",
+    "variation_id": "variation_id_01283293be20770bb20ae09ac63ae2d2",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Tomato-None-Microwave-13/trial_T20190908_124829_632660/game.tw-pddl",
+    "floor_plan": "FloorPlan13",
+    "goal": "Put a tomato in the microwave.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_042713_075616",
+    "variation_id": "variation_id_3123cfbec84a4d26f7e97ec122dac589",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-1/trial_T20190908_042713_075616/game.tw-pddl",
+    "floor_plan": "FloorPlan1",
+    "goal": "Place a chilled head of lettuce on a counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190908_183331_203888",
+    "variation_id": "variation_id_47af5b5dff57c116aa658e9e150ea62a",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-Spatula-None-Drawer-13/trial_T20190908_183331_203888/game.tw-pddl",
+    "floor_plan": "FloorPlan13",
+    "goal": "Put two spatulas away in a drawer.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190906_202340_749336",
+    "variation_id": "variation_id_d68af1d354405d9fa5c2954aa7d34351",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Drawer-423/trial_T20190906_202340_749336/game.tw-pddl",
+    "floor_plan": "FloorPlan423",
+    "goal": "Put away clean soap.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_051813_197569",
+    "variation_id": "variation_id_47128a73df1cddcf161f3deddd2be71d",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051813_197569/game.tw-pddl",
+    "floor_plan": "FloorPlan222",
+    "goal": "Put one watch on the end tale. ",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190908_164236_518264",
+    "variation_id": "variation_id_60afd6a1fdbc96b2f8e62160445971b2",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-SprayBottle-None-GarbageCan-419/trial_T20190908_164236_518264/game.tw-pddl",
+    "floor_plan": "FloorPlan419",
+    "goal": "Move two spray bottles into a small grey bin.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_183724_205399",
+    "variation_id": "variation_id_0793615380dcc3736e7e1c143be314e2",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-DiningTable-16/trial_T20190909_183724_205399/game.tw-pddl",
+    "floor_plan": "FloorPlan16",
+    "goal": "Put a clean large metal spoon on the round white table.",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_111251_461099",
+    "variation_id": "variation_id_afdceec399b87c11515d6324f4726784",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111251_461099/game.tw-pddl",
+    "floor_plan": "FloorPlan423",
+    "goal": "To take the toilet paper on top of the toilet and place it in a drawer. ",
+    "num_steps": 9
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_053153_077977",
+    "variation_id": "variation_id_faa0932d548a4d9d7be18ece133e1a69",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-Pillow-None-DeskLamp-323/trial_T20190908_053153_077977/game.tw-pddl",
+    "floor_plan": "FloorPlan323",
+    "goal": "Look at a pillow by the light of a lamp.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_233817_198528",
+    "variation_id": "variation_id_b4810dea744d56488e9887d7794272b1",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233817_198528/game.tw-pddl",
+    "floor_plan": "FloorPlan324",
+    "goal": "Take the blue cell phone from the dresser, put it on the bed",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_052007_212776",
+    "variation_id": "variation_id_f0faa7729b16a5864de7afaa2fb8d204",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-30/trial_T20190908_052007_212776/game.tw-pddl",
+    "floor_plan": "FloorPlan30",
+    "goal": "Place a rinsed knife inside a drawer.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_124425_112757",
+    "variation_id": "variation_id_a6f787a4af8ce929e3146b218c4e2e52",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-8/trial_T20190909_124425_112757/game.tw-pddl",
+    "floor_plan": "FloorPlan8",
+    "goal": "Place a clean knife in a drawer.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_140701_251653",
+    "variation_id": "variation_id_2d5d983e219f88bb78ee2c81698453f3",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140701_251653/game.tw-pddl",
+    "floor_plan": "FloorPlan423",
+    "goal": "Get wash rag wet and put it away in drawer.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190906_234406_356490",
+    "variation_id": "variation_id_7a2d4016708ec18da1173c7963b519f4",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Egg-None-Microwave-4/trial_T20190906_234406_356490/game.tw-pddl",
+    "floor_plan": "FloorPlan4",
+    "goal": "Put an egg in the microwave. ",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_233056_022802",
+    "variation_id": "variation_id_1fcc54bd86e051762358db5a3e414d65",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-26/trial_T20190907_233056_022802/game.tw-pddl",
+    "floor_plan": "FloorPlan26",
+    "goal": "Put a clean mug under the coffee maker.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_121728_511866",
+    "variation_id": "variation_id_7b254b6dcb64b45df04d18168b506ad0",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-2/trial_T20190908_121728_511866/game.tw-pddl",
+    "floor_plan": "FloorPlan2",
+    "goal": "Put a clean butter knife in a drawer.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_222555_651605",
+    "variation_id": "variation_id_84bc24e3e955f1413a28f162bd58d592",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-11/trial_T20190908_222555_651605/game.tw-pddl",
+    "floor_plan": "FloorPlan11",
+    "goal": "Place a chilled head of lettuce on a counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_002804_564168",
+    "variation_id": "variation_id_2f501d98762d1a177e70f46ed7c186de",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Spatula-None-DiningTable-4/trial_T20190909_002804_564168/game.tw-pddl",
+    "floor_plan": "FloorPlan4",
+    "goal": "Place a spatula on the table.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_144357_621068",
+    "variation_id": "variation_id_4f8b3cbb1b494806d28ddc871ca2bbcf",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-403/trial_T20190908_144357_621068/game.tw-pddl",
+    "floor_plan": "FloorPlan403",
+    "goal": "Put a wet sponge on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_021000_274398",
+    "variation_id": "variation_id_b10c800b236967e4cd6e6f153d00ecc3",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-RemoteControl-None-ArmChair-230/trial_T20190909_021000_274398/game.tw-pddl",
+    "floor_plan": "FloorPlan230",
+    "goal": "Place a remote control on a chair.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_012550_586494",
+    "variation_id": "variation_id_0a8fa1519e439d58bca14ab639833789",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Tomato-None-CounterTop-25/trial_T20190909_012550_586494/game.tw-pddl",
+    "floor_plan": "FloorPlan25",
+    "goal": "wash a tomato and put it on the counter",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_222640_487432",
+    "variation_id": "variation_id_5a198135756adabd5728a8fb18870879",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-1/trial_T20190907_222640_487432/game.tw-pddl",
+    "floor_plan": "FloorPlan1",
+    "goal": "Put a heated mug on the coffee machine. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_150807_823817",
+    "variation_id": "variation_id_cddc5b76df3c7d4a603406e356f02118",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-Microwave-5/trial_T20190908_150807_823817/game.tw-pddl",
+    "floor_plan": "FloorPlan5",
+    "goal": "Put a chilled apple in the microwave. ",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_050633_745514",
+    "variation_id": "variation_id_7b897f27ec45b3dc3bf8c3b92ea45c04",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+    "floor_plan": "FloorPlan329",
+    "goal": "move a magazine from the bed to the table",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_230232_832893",
+    "variation_id": "variation_id_bdaa500c48c66f640834735b5e1da7ee",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-CD-None-Drawer-304/trial_T20190907_230232_832893/game.tw-pddl",
+    "floor_plan": "FloorPlan304",
+    "goal": "Move two CDs to the bottom drawer of the desk.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_113844_191747",
+    "variation_id": "variation_id_c603e83c365188f73f1e9b7f2cdf8093",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-CounterTop-14/trial_T20190909_113844_191747/game.tw-pddl",
+    "floor_plan": "FloorPlan14",
+    "goal": "Place a rinsed spoon on a counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_055248_059513",
+    "variation_id": "variation_id_32568f55c016d946722d6a252c61427b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Candle-None-Toilet-407/trial_T20190909_055248_059513/game.tw-pddl",
+    "floor_plan": "FloorPlan407",
+    "goal": "Put a candle on the back of a toilet.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190909_014639_335717",
+    "variation_id": "variation_id_8ce7fa3109148e63a8348c9588eac092",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Mug-None-Cabinet-3/trial_T20190909_014639_335717/game.tw-pddl",
+    "floor_plan": "FloorPlan3",
+    "goal": "Move mug from coffee maker to microwave and heat, move to cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_063844_274181",
+    "variation_id": "variation_id_105adbe001ed134450c9cc121be559ae",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-CounterTop-12/trial_T20190909_063844_274181/game.tw-pddl",
+    "floor_plan": "FloorPlan12",
+    "goal": "Put a cool tomato on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_063754_216554",
+    "variation_id": "variation_id_dd1082623eb4f983fea8c9f55f537a2c",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-CounterTop-12/trial_T20190909_063754_216554/game.tw-pddl",
+    "floor_plan": "FloorPlan12",
+    "goal": "Put a chilled tomato on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190909_150916_682139",
+    "variation_id": "variation_id_3a10616f6292c6af64657d2106b019b4",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-Pillow-None-DeskLamp-302/trial_T20190909_150916_682139/game.tw-pddl",
+    "floor_plan": "FloorPlan302",
+    "goal": "Carry a purple pillow while turning on a lamp",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_024426_412044",
+    "variation_id": "variation_id_18e112472d6c31a32bb92b8d9094196f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-WineBottle-None-DiningTable-17/trial_T20190908_024426_412044/game.tw-pddl",
+    "floor_plan": "FloorPlan17",
+    "goal": "Set a chilled bottle of wine on the table.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_232648_241836",
+    "variation_id": "variation_id_ab4cfe0cf7967967ae3a4be00da7ba1d",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Pan-None-DiningTable-7/trial_T20190908_232648_241836/game.tw-pddl",
+    "floor_plan": "FloorPlan7",
+    "goal": "Put a chilled pan on a kitchen table",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190906_173120_350651",
+    "variation_id": "variation_id_b3390bc102708facbfb7880528619559",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-Cabinet-27/trial_T20190906_173120_350651/game.tw-pddl",
+    "floor_plan": "FloorPlan27",
+    "goal": "Put the plate from the table inside the refrigerator, and then store it in the cabinet under the sink.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_165826_194855",
+    "variation_id": "variation_id_6a7d202a501d142a5eaab4280fe7e8bb",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-AlarmClock-None-Dresser-305/trial_T20190907_165826_194855/game.tw-pddl",
+    "floor_plan": "FloorPlan305",
+    "goal": "Move two alarm clocks from the desk to the night stand. ",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190906_205324_559361",
+    "variation_id": "variation_id_25e1c7e9e17e0d31d9f52bc9a37c02ac",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-CounterTop-1/trial_T20190906_205324_559361/game.tw-pddl",
+    "floor_plan": "FloorPlan1",
+    "goal": "cool off a white plate",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190909_011341_436523",
+    "variation_id": "variation_id_e4c7f1171bc68f9fe51525ce315c4fa1",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Potato-None-Fridge-11/trial_T20190909_011341_436523/game.tw-pddl",
+    "floor_plan": "FloorPlan11",
+    "goal": "Heat and chill a potato.",
+    "num_steps": 6
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190907_114323_767231",
+    "variation_id": "variation_id_f2fbbfcb985e0ed71f949b8dd2d702ae",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-CD-None-DeskLamp-314/trial_T20190907_114323_767231/game.tw-pddl",
+    "floor_plan": "FloorPlan314",
+    "goal": "Examine a CD by a lamp",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190909_044715_250790",
+    "variation_id": "variation_id_db9a9c4c96f4116152a9731247494e41",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-AlarmClock-None-DeskLamp-323/trial_T20190909_044715_250790/game.tw-pddl",
+    "floor_plan": "FloorPlan323",
+    "goal": "look at the clock under the lamp",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_122951_021026",
+    "variation_id": "variation_id_bed30cae9a199c15788cdbdcd900278f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Egg-None-CounterTop-2/trial_T20190908_122951_021026/game.tw-pddl",
+    "floor_plan": "FloorPlan2",
+    "goal": "Place a heated egg on the kitchen island.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_050518_595510",
+    "variation_id": "variation_id_733af54b0395ad78d838cfe4e918f6e0",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050518_595510/game.tw-pddl",
+    "floor_plan": "FloorPlan415",
+    "goal": "Put a roll of toilet paper on the toilet paper holder.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_201243_698086",
+    "variation_id": "variation_id_75628757301a2ffc613067adc7526fb3",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Tomato-None-DiningTable-16/trial_T20190907_201243_698086/game.tw-pddl",
+    "floor_plan": "FloorPlan16",
+    "goal": "Heat a tomato and place it on a table.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_041436_588106",
+    "variation_id": "variation_id_2ab7a76087a1e8b435e2cd624a1b0fea",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Toilet-428/trial_T20190907_041436_588106/game.tw-pddl",
+    "floor_plan": "FloorPlan428",
+    "goal": "Place the wet soap on top of the toilet next to the other soaps.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190909_150719_492274",
+    "variation_id": "variation_id_e8c45d8d3884734a05ab2684c2a0f45f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-Bowl-None-DeskLamp-301/trial_T20190909_150719_492274/game.tw-pddl",
+    "floor_plan": "FloorPlan301",
+    "goal": "take the bowl to the lamp",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_114508_617301",
+    "variation_id": "variation_id_008cd60b31015da3ccd344ee9ff5a8d9",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-DiningTable-16/trial_T20190909_114508_617301/game.tw-pddl",
+    "floor_plan": "FloorPlan16",
+    "goal": "To wash an knife and place it on the kitchen table.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190909_193045_208933",
+    "variation_id": "variation_id_3e7ebb1f0ec8f9e34aaec359adf39ffe",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-Statue-None-DeskLamp-216/trial_T20190909_193045_208933/game.tw-pddl",
+    "floor_plan": "FloorPlan216",
+    "goal": "Examine a statue by the light of a small lamp.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_114931_692464",
+    "variation_id": "variation_id_beca7fcd3df4da9ebcf6be1f5c326569",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Cabinet-413/trial_T20190907_114931_692464/game.tw-pddl",
+    "floor_plan": "FloorPlan413",
+    "goal": "put the green spray bottle into the drawer",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190906_201106_979461",
+    "variation_id": "variation_id_477ae5cca82d4d5cbae4057e0f7c423b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Toilet-410/trial_T20190906_201106_979461/game.tw-pddl",
+    "floor_plan": "FloorPlan410",
+    "goal": "place clean soap on top of the toilet",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190909_091314_636733",
+    "variation_id": "variation_id_1a7360f986259594902d17cc3cdf3196",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Egg-None-Fridge-14/trial_T20190909_091314_636733/game.tw-pddl",
+    "floor_plan": "FloorPlan14",
+    "goal": "cook an egg then put it back inside the fridge",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_044933_815840",
+    "variation_id": "variation_id_f5e0dc8d749fd55e2fb65d94163bf47f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+    "floor_plan": "FloorPlan14",
+    "goal": "put a chilled apple on a kitchen counter",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_122204_941737",
+    "variation_id": "variation_id_434096584b6360f33ed23b9b37a7ac7e",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-Glassbottle-None-Shelf-1/trial_T20190907_122204_941737/game.tw-pddl",
+    "floor_plan": "FloorPlan1",
+    "goal": "Put the vases on the wooden shelf",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_105559_983897",
+    "variation_id": "variation_id_8eb03ab7f5eb9ab786c86b6aa39b3272",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897/game.tw-pddl",
+    "floor_plan": "FloorPlan8",
+    "goal": "wash the butter knife and put it back on the counter",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_184242_348366",
+    "variation_id": "variation_id_c9328f9c82d30c81732f8301702a384b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-16/trial_T20190908_184242_348366/game.tw-pddl",
+    "floor_plan": "FloorPlan16",
+    "goal": "Place a cooled mug on a coffee machine.",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_122858_883968",
+    "variation_id": "variation_id_d364838a321819a495d66c0c0b6c1a0b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-406/trial_T20190908_122858_883968/game.tw-pddl",
+    "floor_plan": "FloorPlan406",
+    "goal": "Put an empty toilet paper roll on a toilet paper holder.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190910_112922_368384",
+    "variation_id": "variation_id_5a0946482c44eaa1540ba9717db16333",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-SoapBottle-None-CounterTop-417/trial_T20190910_112922_368384/game.tw-pddl",
+    "floor_plan": "FloorPlan417",
+    "goal": "Place a soap container on a counter.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_182211_592010",
+    "variation_id": "variation_id_44b254861118ca97202984952aa638eb",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/game.tw-pddl",
+    "floor_plan": "FloorPlan205",
+    "goal": "Put two watches on the tv stand.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190909_082320_103350",
+    "variation_id": "variation_id_2d079ec09703cf9ef4c78a1eaa85dc7f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Tomato-None-Fridge-23/trial_T20190909_082320_103350/game.tw-pddl",
+    "floor_plan": "FloorPlan23",
+    "goal": "Place a tomato back in the refrigerator when done heating in the microwave.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190910_222914_814642",
+    "variation_id": "variation_id_87eb6b9e6c957e814e8653c648935cc8",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-SprayBottle-None-Toilet-402/trial_T20190910_222914_814642/game.tw-pddl",
+    "floor_plan": "FloorPlan402",
+    "goal": "Put the green spray bottles on the toilet",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_054742_818364",
+    "variation_id": "variation_id_2748ee56d63674c056f4457149efea15",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-GarbageCan-409/trial_T20190908_054742_818364/game.tw-pddl",
+    "floor_plan": "FloorPlan409",
+    "goal": "Put a spray bottle in a garbage bin.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190906_202601_548273",
+    "variation_id": "variation_id_c6ccc090cf1d88f254d869379927991f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-KeyChain-None-DeskLamp-327/trial_T20190906_202601_548273/game.tw-pddl",
+    "floor_plan": "FloorPlan327",
+    "goal": "Examine the keys under the light of the table lamp",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_052232_887934",
+    "variation_id": "variation_id_3084663d3255c9aa142633f35cf8ac8f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Candle-None-Toilet-429/trial_T20190908_052232_887934/game.tw-pddl",
+    "floor_plan": "FloorPlan429",
+    "goal": "Put a bottle on the back of a newspaper.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_113054_894334",
+    "variation_id": "variation_id_afcfbd7f147edcc3fbbe5f8e2e8869a1",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Pencil-None-Desk-310/trial_T20190909_113054_894334/game.tw-pddl",
+    "floor_plan": "FloorPlan310",
+    "goal": "Place a pencil on a desk.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190906_181531_703961",
+    "variation_id": "variation_id_c054f15a663e0132bed4e95736420879",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-Vase-None-Desk-204/trial_T20190906_181531_703961/game.tw-pddl",
+    "floor_plan": "FloorPlan204",
+    "goal": "Put the yellow and blue jars on the black desk.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190906_190942_706186",
+    "variation_id": "variation_id_d5f06c2dc2db3a461ead34eb95b51c92",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-418/trial_T20190906_190942_706186/game.tw-pddl",
+    "floor_plan": "FloorPlan418",
+    "goal": "Put a spray bottle on top of the toilet's water tank.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_111324_949106",
+    "variation_id": "variation_id_33eef81e1863129fdc897bc6e2bc98ba",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/game.tw-pddl",
+    "floor_plan": "FloorPlan224",
+    "goal": "Place a newspaper on a couch.",
+    "num_steps": 4
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_234112_645480",
+    "variation_id": "variation_id_e44314b7eda692344ebcb016b41634b4",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Egg-None-Microwave-24/trial_T20190908_234112_645480/game.tw-pddl",
+    "floor_plan": "FloorPlan24",
+    "goal": "Put a cold egg in the microwave.",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_212725_836398",
+    "variation_id": "variation_id_0900bb284a8377e13de3e23eab86b52b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Plate-None-CounterTop-19/trial_T20190908_212725_836398/game.tw-pddl",
+    "floor_plan": "FloorPlan19",
+    "goal": "Put a clean plate on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_121908_219603",
+    "variation_id": "variation_id_ed06664387ae9d55764e2583f3f9bcf8",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-CounterTop-8/trial_T20190909_121908_219603/game.tw-pddl",
+    "floor_plan": "FloorPlan8",
+    "goal": "Place a clean ladle on a counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_100138_446072",
+    "variation_id": "variation_id_de9ff4bf04f6d4cca36675b45c6530b0",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Lettuce-None-Fridge-19/trial_T20190908_100138_446072/game.tw-pddl",
+    "floor_plan": "FloorPlan19",
+    "goal": "place clean lettuce inside of the kitchen fridge",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_171639_045329",
+    "variation_id": "variation_id_d4399e68935c90ac7adf2b44053247ca",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171639_045329/game.tw-pddl",
+    "floor_plan": "FloorPlan201",
+    "goal": "Move a bowl from a dining table to a coffee table.",
+    "num_steps": 4
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190906_182952_858723",
+    "variation_id": "variation_id_a6e48f74cc82c6753520289ec569dc3a",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-RemoteControl-None-Ottoman-203/trial_T20190906_182952_858723/game.tw-pddl",
+    "floor_plan": "FloorPlan203",
+    "goal": "Put two remotes on an ottoman.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_080903_889497",
+    "variation_id": "variation_id_305d3541e76b5c5970354d2169fbc873",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-405/trial_T20190907_080903_889497/game.tw-pddl",
+    "floor_plan": "FloorPlan405",
+    "goal": "Put a wet towel in the cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_144556_144188",
+    "variation_id": "variation_id_f73c3861e06f2ace82dfec604acc2b33",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-SprayBottle-None-Cabinet-407/trial_T20190907_144556_144188/game.tw-pddl",
+    "floor_plan": "FloorPlan407",
+    "goal": "Move the spray bottles to the cabinet under the sink. ",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_033843_707544",
+    "variation_id": "variation_id_ff1f99ccf7521d6684ecaf2999cc9c31",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-SprayBottle-None-Toilet-429/trial_T20190907_033843_707544/game.tw-pddl",
+    "floor_plan": "FloorPlan429",
+    "goal": "Place spray bottles on the back of a toilet",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_054906_608944",
+    "variation_id": "variation_id_6c8303fa8e4ba1052ce1382c7c925f5b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-SoapBar-None-Cart-401/trial_T20190907_054906_608944/game.tw-pddl",
+    "floor_plan": "FloorPlan401",
+    "goal": "To place the soap on the rack.",
+    "num_steps": 4
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190906_200927_069627",
+    "variation_id": "variation_id_dc4bc73962845cb908e0f318e167a173",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-Box-None-CoffeeTable-213/trial_T20190906_200927_069627/game.tw-pddl",
+    "floor_plan": "FloorPlan213",
+    "goal": "Put two cardboard boxes on the coffee table.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_110131_524518",
+    "variation_id": "variation_id_67bf5daaad4f9404df275eaa88d80d9a",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-SoapBottle-None-Cabinet-414/trial_T20190908_110131_524518/game.tw-pddl",
+    "floor_plan": "FloorPlan414",
+    "goal": "Move a bottle from the counter to the drawer.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190907_074425_330493",
+    "variation_id": "variation_id_f07f6661451b58d35ff7401b1dd45e8a",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-Box-None-DeskLamp-205/trial_T20190907_074425_330493/game.tw-pddl",
+    "floor_plan": "FloorPlan205",
+    "goal": "Turn on a light with a box in hand.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_201917_045715",
+    "variation_id": "variation_id_a5277d338d473287b69814ff6275beb2",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-CreditCard-None-Dresser-311/trial_T20190907_201917_045715/game.tw-pddl",
+    "floor_plan": "FloorPlan311",
+    "goal": "Put two credit cards on a cabinet.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_071128_012892",
+    "variation_id": "variation_id_b45c1f8302743284cee9d0bdfa3c68be",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Pencil-None-Dresser-330/trial_T20190909_071128_012892/game.tw-pddl",
+    "floor_plan": "FloorPlan330",
+    "goal": "to grab a pencil from the night stand and place it on the dresser",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190910_173916_331859",
+    "variation_id": "variation_id_9128ccc9b2e2ae6b2b4af0a615326177",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-Microwave-13/trial_T20190910_173916_331859/game.tw-pddl",
+    "floor_plan": "FloorPlan13",
+    "goal": "Put a chilled tomato in the microwave",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_001247_096796",
+    "variation_id": "variation_id_307faee792d67ef8fc18081c550bc6a2",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Plate-None-DiningTable-28/trial_T20190908_001247_096796/game.tw-pddl",
+    "floor_plan": "FloorPlan28",
+    "goal": "Warm a plate and place it on the table.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190906_195943_081289",
+    "variation_id": "variation_id_300a0d0a2d24d3bff952b5b1a4ae3acb",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195943_081289/game.tw-pddl",
+    "floor_plan": "FloorPlan2",
+    "goal": "Place a cool apple in the white bin.",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_055221_984342",
+    "variation_id": "variation_id_aff4d5f1a1f037370b684255d76ff549",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-402/trial_T20190908_055221_984342/game.tw-pddl",
+    "floor_plan": "FloorPlan402",
+    "goal": "Put a clean bar of soap under the sink. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_075955_678702",
+    "variation_id": "variation_id_7dd4031b8b72934fdb73795270c27cf2",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_075955_678702/game.tw-pddl",
+    "floor_plan": "FloorPlan415",
+    "goal": " put the spray bottle on the back of the toilet",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190906_181023_216915",
+    "variation_id": "variation_id_d55ca4c9eecc0bc8ae352476081ae68f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Pan-None-StoveBurner-18/trial_T20190906_181023_216915/game.tw-pddl",
+    "floor_plan": "FloorPlan18",
+    "goal": "Place a chilled frying pan on the stove.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_024634_972453",
+    "variation_id": "variation_id_7909d2060f81132ed83e86366a32f638",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-DishSponge-None-Cart-401/trial_T20190907_024634_972453/game.tw-pddl",
+    "floor_plan": "FloorPlan401",
+    "goal": "Put a wet sponge on the metal rack. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190910_155319_795672",
+    "variation_id": "variation_id_68571dc332bdc082b915fa71eb81d3ba",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-TissueBox-None-Toilet-426/trial_T20190910_155319_795672/game.tw-pddl",
+    "floor_plan": "FloorPlan426",
+    "goal": "Move tissues from counter to toilet",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_112912_154874",
+    "variation_id": "variation_id_f3ee2627d447233184197015f637949f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Bowl-None-Cabinet-20/trial_T20190909_112912_154874/game.tw-pddl",
+    "floor_plan": "FloorPlan20",
+    "goal": "put chilled bowl in cabinet",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_033721_967359",
+    "variation_id": "variation_id_263e38eddd147661c82b42be8ab69b3f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Tomato-None-Fridge-24/trial_T20190908_033721_967359/game.tw-pddl",
+    "floor_plan": "FloorPlan24",
+    "goal": "Put a cooked tomato into the refrigerator.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190906_210937_878489",
+    "variation_id": "variation_id_edc971be0147cf7080c9d32d00932778",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-Microwave-19/trial_T20190906_210937_878489/game.tw-pddl",
+    "floor_plan": "FloorPlan19",
+    "goal": "Take the apple from the table, put it in the refrigerator, take it out, heat the apple in the microwave",
+    "num_steps": 6
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190907_154618_526741",
+    "variation_id": "variation_id_ff5be5f3d5f2a6781af44f848941142d",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-CD-None-DeskLamp-302/trial_T20190907_154618_526741/game.tw-pddl",
+    "floor_plan": "FloorPlan302",
+    "goal": "Grab the disc from the shelf, turn on the lamp on the cabinet",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_091246_807206",
+    "variation_id": "variation_id_d0b4c112d381a49781e859c55d245b99",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091246_807206/game.tw-pddl",
+    "floor_plan": "FloorPlan207",
+    "goal": "Place a vase on a coffee table",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_001129_214240",
+    "variation_id": "variation_id_5f74dd95f8408077f56805d76c611078",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-CreditCard-None-Safe-323/trial_T20190907_001129_214240/game.tw-pddl",
+    "floor_plan": "FloorPlan323",
+    "goal": "To put two cards in a safe.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190909_055538_380023",
+    "variation_id": "variation_id_aeb07e779fbfdddb9f5991bc807f8243",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-SoapBar-None-GarbageCan-418/trial_T20190909_055538_380023/game.tw-pddl",
+    "floor_plan": "FloorPlan418",
+    "goal": "To move two bars of soap to the black bin. ",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190909_055649_717880",
+    "variation_id": "variation_id_ccdd4b15656772b7970e709cb05301b1",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-SoapBar-None-GarbageCan-418/trial_T20190909_055649_717880/game.tw-pddl",
+    "floor_plan": "FloorPlan418",
+    "goal": "Put two bars of soap into the trash can.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_082934_483899",
+    "variation_id": "variation_id_68d4f67ca6556c3463b9bee12a65ac0e",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-GarbageCan-6/trial_T20190909_082934_483899/game.tw-pddl",
+    "floor_plan": "FloorPlan6",
+    "goal": "Put a frozen tomato in to garbage bin. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190908_125930_920681",
+    "variation_id": "variation_id_38e76295362e9323da60c397e8003d5b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-Book-None-Desk-313/trial_T20190908_125930_920681/game.tw-pddl",
+    "floor_plan": "FloorPlan313",
+    "goal": "Move two books from the bed to the desk.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_112854_740612",
+    "variation_id": "variation_id_07ccb5f54d351e03a55b1aa84d6c054b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Plate-None-Fridge-5/trial_T20190909_112854_740612/game.tw-pddl",
+    "floor_plan": "FloorPlan5",
+    "goal": "Place a rinsed plate in the fridge.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_153609_373481",
+    "variation_id": "variation_id_cd6c5f40bb099ce613adc8788ac6731f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-RemoteControl-None-Sofa-207/trial_T20190909_153609_373481/game.tw-pddl",
+    "floor_plan": "FloorPlan207",
+    "goal": "move the remote from the table to the couch",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_152837_739016",
+    "variation_id": "variation_id_a9fa2b3853fc4728a8f018d49d331f9e",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152837_739016/game.tw-pddl",
+    "floor_plan": "FloorPlan311",
+    "goal": "Put the mug on the dresser with the television.",
+    "num_steps": 4
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_042856_259139",
+    "variation_id": "variation_id_a16a7353b2edd0f690a4a50d8a75a69c",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042856_259139/game.tw-pddl",
+    "floor_plan": "FloorPlan229",
+    "goal": "Move a book from a desk to a sofa.",
+    "num_steps": 4
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_032340_274147",
+    "variation_id": "variation_id_fc78e11276286951b60b518180c4e47e",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Mug-None-SideTable-329/trial_T20190909_032340_274147/game.tw-pddl",
+    "floor_plan": "FloorPlan329",
+    "goal": "Place a CD on a table.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_032318_169393",
+    "variation_id": "variation_id_3f2d58ebca74fcc7be053bbd5405d1aa",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Mug-None-SideTable-329/trial_T20190909_032318_169393/game.tw-pddl",
+    "floor_plan": "FloorPlan329",
+    "goal": "Move a mug to a nightstand.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_051630_092360",
+    "variation_id": "variation_id_42176d5ab61e030dd757afe307b51d21",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Lettuce-None-CounterTop-16/trial_T20190909_051630_092360/game.tw-pddl",
+    "floor_plan": "FloorPlan16",
+    "goal": "Retrieve green vegetable from table, wash it in the sink, put it on the right side counter",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_132152_999725",
+    "variation_id": "variation_id_26c5a768140c8f1d9816e2b244d4bb83",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Fork-None-Drawer-8/trial_T20190908_132152_999725/game.tw-pddl",
+    "floor_plan": "FloorPlan8",
+    "goal": "Wash a fork and place inside kitchen drawer.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_045605_307949",
+    "variation_id": "variation_id_2af56aad71b8dfb2c12c0d1074f59747",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Bread-None-CounterTop-7/trial_T20190909_045605_307949/game.tw-pddl",
+    "floor_plan": "FloorPlan7",
+    "goal": "Chill the bread from the counter in the fridge and put it to the left of the stove.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_173251_960848",
+    "variation_id": "variation_id_75155498aced4e2547f047b1927c6c79",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Cup-None-Cabinet-22/trial_T20190907_173251_960848/game.tw-pddl",
+    "floor_plan": "FloorPlan22",
+    "goal": "Heat a glass and place it in the cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190918_184236_557252",
+    "variation_id": "variation_id_029aca11a9cbcbb99db63fe4cd89a2dc",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Knife-None-SideTable-3/trial_T20190918_184236_557252/game.tw-pddl",
+    "floor_plan": "FloorPlan3",
+    "goal": "place a knife on the microwave oven table",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_120047_968274",
+    "variation_id": "variation_id_edd61c989b66be42830008f431e1ca7c",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/game.tw-pddl",
+    "floor_plan": "FloorPlan318",
+    "goal": "Place a cell phone on a chair.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190909_080302_174780",
+    "variation_id": "variation_id_92ff80b01a81512f5683f7fdd854aad1",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-ToiletPaper-None-Toilet-408/trial_T20190909_080302_174780/game.tw-pddl",
+    "floor_plan": "FloorPlan408",
+    "goal": "Put two rolls of toilet paper on the back of a toilet.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190907_224451_655673",
+    "variation_id": "variation_id_461f9e9d16030274927a86a550883e4e",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224451_655673/game.tw-pddl",
+    "floor_plan": "FloorPlan320",
+    "goal": "Carry a CD while turning on a lamp",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190906_192823_237997",
+    "variation_id": "variation_id_a026d480e73997c1d4f156fbb89d82a0",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Cup-None-SideTable-21/trial_T20190906_192823_237997/game.tw-pddl",
+    "floor_plan": "FloorPlan21",
+    "goal": "Place a chilled cup on the table.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190909_062333_424779",
+    "variation_id": "variation_id_647da92ace9ab63e3a8d60b4894169c7",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Mug-None-Cabinet-26/trial_T20190909_062333_424779/game.tw-pddl",
+    "floor_plan": "FloorPlan26",
+    "goal": "place microwaved black mug in upper cabinet in between microwave and sink",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_200154_378982",
+    "variation_id": "variation_id_8803257255314bae6e507f3e7a282aea",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-WineBottle-None-Shelf-7/trial_T20190907_200154_378982/game.tw-pddl",
+    "floor_plan": "FloorPlan7",
+    "goal": "Put a wine bottle on the second from the bottom shelf, in the kitchen. ",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190909_090729_088825",
+    "variation_id": "variation_id_0fb66b0a5c0804e80c4c117e06ffc915",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Mug-None-SideTable-21/trial_T20190909_090729_088825/game.tw-pddl",
+    "floor_plan": "FloorPlan21",
+    "goal": "Put a heated mug down on a table.",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190909_020200_054379",
+    "variation_id": "variation_id_8ee75395c39e67741af8e3d5d6831cd8",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Tomato-None-Fridge-15/trial_T20190909_020200_054379/game.tw-pddl",
+    "floor_plan": "FloorPlan15",
+    "goal": "place a microwaved tomato inside of the fridge",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190911_101248_326533",
+    "variation_id": "variation_id_1f59c1cc2884ca7b6bcca69033ffde1f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101248_326533/game.tw-pddl",
+    "floor_plan": "FloorPlan224",
+    "goal": "Place the two newsletters in a tv drawer.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_081908_677973",
+    "variation_id": "variation_id_7d5ef22e1a977a8800f666e70436275c",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_and_place_simple-Candle-None-Cart-401/trial_T20190909_081908_677973/game.tw-pddl",
+    "floor_plan": "FloorPlan401",
+    "goal": "Put a candle on a rack.",
+    "num_steps": 4
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190907_231206_512424",
+    "variation_id": "variation_id_557a3dbcfb53e77c21ed5a3020be4bcc",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_231206_512424/game.tw-pddl",
+    "floor_plan": "FloorPlan7",
+    "goal": "Put a chilled plate in a cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190906_215856_374127",
+    "variation_id": "variation_id_2880632c643f99fdaad5d085070b57fc",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Pan-None-StoveBurner-23/trial_T20190906_215856_374127/game.tw-pddl",
+    "floor_plan": "FloorPlan23",
+    "goal": "Put a chilled pan on the stove. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_091747_866951",
+    "variation_id": "variation_id_ce923a20025dcc37ecb0c8f7218faa91",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091747_866951/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Cool some bread and the place it on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_091811_414150",
+    "variation_id": "variation_id_91c34527f71ff1a8c33567f04421a455",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091811_414150/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put chilled bread on the counter, right of the fridge. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_091835_825830",
+    "variation_id": "variation_id_c6c4420a0e6d4eabe1bc1e61570b8ac5",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091835_825830/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a cool loaf of bread on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190906_182259_116320",
+    "variation_id": "variation_id_1f1d721595504086378fb42e541e42cd",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182259_116320/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put the cooked green apple in the fridge",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190906_182353_418140",
+    "variation_id": "variation_id_cc9f6816781d99884b521762cc8a1636",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182353_418140/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a microwaved apple in the fridge.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190906_182435_622538",
+    "variation_id": "variation_id_744da10a665aba751d8011550978c4fc",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182435_622538/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a heated apple next to the lettuce on the middle shelf in the refrigerator.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_213356_017769",
+    "variation_id": "variation_id_8ea9287eee353e1702c66ac7dadb48dd",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213356_017769/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "wash the dirty bowl before putting the bowl on the counter",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_213420_728917",
+    "variation_id": "variation_id_1e9f5959b041359e838884a9b3fb1943",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213420_728917/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a clean plate on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_213533_897289",
+    "variation_id": "variation_id_3abede445fee5abf8e2b97eca9c8c161",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213533_897289/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a clean yellow plate on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_122154_042763",
+    "variation_id": "variation_id_8e2ff351a883a21a71ad349387849d17",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122154_042763/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Move the pencil to a different area of the desk.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_121952_610012",
+    "variation_id": "variation_id_e2b3a18dc73ab3e7a48abd3444eb19f3",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_121952_610012/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Take the pencil from the desk, put it back on the desk",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_122024_052056",
+    "variation_id": "variation_id_29fdfc0e22b9f83ba80bc40ef0a6ea58",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122024_052056/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Move a pencil on the desk over. ",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_074045_109439",
+    "variation_id": "variation_id_2a8f8806c55daf6f20287bb1ace3605f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074045_109439/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Rinse off the soap and place it on the counter.",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_074106_050405",
+    "variation_id": "variation_id_bb7d1de53d2816f56521d44c712bc710",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074106_050405/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Put a wet soap on the counter. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_074124_966890",
+    "variation_id": "variation_id_2f14585f69d76eeff507aac1d3b603e2",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074124_966890/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Put a cleaned bar of soap on a counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_004404_604165",
+    "variation_id": "variation_id_8c3bb845b3d4ff7ca1c642aa6171c644",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004404_604165/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "place a soap dispenser on top of the toilet",
+    "num_steps": 4
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_004351_281384",
+    "variation_id": "variation_id_09dff320ff444ca7af955a3be030fbe1",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004351_281384/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Place the green bottle on the toilet baisin.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_004321_405868",
+    "variation_id": "variation_id_ceee928d52d34292107ceb09de986a1e",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004321_405868/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Move a bottle of hand soap from the sink to the toilet.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190907_033228_194678",
+    "variation_id": "variation_id_d78619574679082089359a84af7748d1",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033228_194678/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a chilled potato in the microwave. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190907_033306_962974",
+    "variation_id": "variation_id_2e20559f5e8624703cbc6bb98f07b1f4",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033306_962974/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "put a cooled potato inside the microwave",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190907_033157_424297",
+    "variation_id": "variation_id_886cb712f82deb1582791b8a023e93a6",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033157_424297/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "place a potato inside the microwave",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_174807_646433",
+    "variation_id": "variation_id_f0ed8c50a1311e17ebd6beafed01936b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_174807_646433/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put chilled lettuce on the counter. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_123133_763972",
+    "variation_id": "variation_id_d537c173e91f2aad66b58685d5a6971c",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_123133_763972/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "chill the lettuce then return it to the counter",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_174840_771703",
+    "variation_id": "variation_id_cf61449b1155b5a62ee55543cf28840d",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_174840_771703/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put chilled lettuce on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190907_183715_299073",
+    "variation_id": "variation_id_598190210b0569f6d96e6e114ee48846",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183715_299073/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Move a chilled mug to the coffee maker. ",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190907_183853_958104",
+    "variation_id": "variation_id_1fced65453b7c3483e97db6b694a1490",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183853_958104/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Cool a mug in the fridge",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190907_183807_477267",
+    "variation_id": "variation_id_813b929df174a33d11888cd12afb2a93",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183807_477267/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "get mug from coffee maker, chill, and return mug to coffee maker",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190906_202926_527010",
+    "variation_id": "variation_id_9508115226565b68e21c1f00f01654dd",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202926_527010/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Put toilet paper rolls in a cabinet under the sink.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_222917_366542",
+    "variation_id": "variation_id_6f9c36922a946c95d80a8b9343b9456e",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222917_366542/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Hold the clock and turn on the lamp.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_222933_607649",
+    "variation_id": "variation_id_1ea020d90c2ffc59734b0c7327e26a15",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222933_607649/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Examine the alarm clock by the light",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_222951_616606",
+    "variation_id": "variation_id_a6b15111641bbdf1fed013a535983d29",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222951_616606/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Turn on a lamp with a metal box. ",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_201444_037645",
+    "variation_id": "variation_id_addd025ffef402359d2f73bd09a0830c",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201444_037645/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Examine a mug using the light of a desk lamp. ",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_161733_213242",
+    "variation_id": "variation_id_4a7573ac9374fefa45f7917008a0eaa9",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_161733_213242/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Look at a mug in lamp light.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_201421_021646",
+    "variation_id": "variation_id_790fbdbb88e1e5df09c38d8580968dd4",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Turn on the desk lamp.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190907_133935_066606",
+    "variation_id": "variation_id_9a7e6437a1f77549fb67504238fc1ba5",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133935_066606/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Examine a bowl by the light of a desk lamp.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190907_133919_856963",
+    "variation_id": "variation_id_d39efbd1c7e7ead1713729982e1d5036",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133919_856963/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "turn on a lamp while holding a bowl",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190907_133953_562557",
+    "variation_id": "variation_id_921b89815c913c3970693f84c4ad4cc3",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133953_562557/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Examine the bowl by the light on the desk. ",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_220604_010430",
+    "variation_id": "variation_id_fe566cfe56493abab1f3f39496f06484",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220604_010430/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "look at the pencil under the lamp",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_220545_153480",
+    "variation_id": "variation_id_2d876247e4a29a250d901d7098df7722",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220545_153480/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Examine a pencil under a lamp.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_220656_510400",
+    "variation_id": "variation_id_6e309b49ffc647cf690414f62235cbcc",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220656_510400/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Pick a pencil up and turn the lamp on.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_102710_795182",
+    "variation_id": "variation_id_71788a14ecefaac8efe254bef309aab4",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102710_795182/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a chilled tomato in a microwave.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_102644_926781",
+    "variation_id": "variation_id_8a60dc9e2ff3e0ee6a5fcc481d634d72",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102644_926781/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "cook a chilled tomato",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_102608_318800",
+    "variation_id": "variation_id_83509b40fa7f01b48ac0c116dd122b82",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102608_318800/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a cooled tomato in the microwave",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_214946_567644",
+    "variation_id": "variation_id_2283422f380af929ffcd1fb85efbf4ff",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214946_567644/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Put a clean bar of soap in a cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_214926_337906",
+    "variation_id": "variation_id_48f9ac6945da4d437218f830d3cce730",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214926_337906/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "put a rinsed off bar of soap in to the cabinet",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_215019_162873",
+    "variation_id": "variation_id_d5b0ecfea46184592f23dc658886e4ac",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_215019_162873/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "put a rinse off bar of soap in to the cabinet",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_080825_222432",
+    "variation_id": "variation_id_c38ddb9a6289e219655135dc14f3d062",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080825_222432/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Clean a spatula to put it away.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_080730_211959",
+    "variation_id": "variation_id_0bf57305f461c54ae60694464b359aca",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080730_211959/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Wash the spatula, put it in the first drawer",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_080800_275989",
+    "variation_id": "variation_id_b463cf9c48dabf4074e87d4c84357e97",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080800_275989/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a clean spatula in a drawer.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_171806_406231",
+    "variation_id": "variation_id_844716b149d7ee30418b71a19232a8fb",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171806_406231/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a warmed mug in a coffee machine.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_171850_960211",
+    "variation_id": "variation_id_089da6800b34837a9cc2269ca0212589",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171850_960211/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put the warm mug on the coffee maker",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_171933_349922",
+    "variation_id": "variation_id_35b9c4f92d95b11f5cd7e125676692e6",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171933_349922/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Move a heated mug to the base of the coffee maker.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_032543_712058",
+    "variation_id": "variation_id_7b164be62c9dc5d5263ba92891fe6be0",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032543_712058/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a cleaned pan on a counter top.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_032518_891433",
+    "variation_id": "variation_id_506f494ba0fd28e4d1a2b334d30f75e8",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032518_891433/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a washed pan on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_032434_013084",
+    "variation_id": "variation_id_5a4701899705b0c6ae0464fe3e88a924",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032434_013084/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a cleaned pan on the counter. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_020029_636862",
+    "variation_id": "variation_id_f6d4c6a61d8cad5e8740adfc5552bf14",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_020029_636862/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Look at a book by the light of a lamp.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_020048_814402",
+    "variation_id": "variation_id_d0ea6c633f0a8dcc7b7fbbd1b3b814e9",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_020048_814402/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Picking up a book and turning on a light to read it by",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_144951_587345",
+    "variation_id": "variation_id_945bb7554808be5367396c7ab88e6a6c",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_144951_587345/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Turn on the table lamp to read the book.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_051013_060265",
+    "variation_id": "variation_id_07f744e8a3a877c809fbc5b0d67238f7",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051013_060265/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Transfer the two CDs from the desk to the vault.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_050942_897916",
+    "variation_id": "variation_id_fa821e63ede20e586246908f46435696",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_050942_897916/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Secure two discs in a bedroom safe.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_051056_585414",
+    "variation_id": "variation_id_0d50e641a6f32fcd81e43edf3e5ef768",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051056_585414/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Put the two disks from the desk into the safe.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_161853_945788",
+    "variation_id": "variation_id_1b2b3ea56a614001bb7ff5822d950ca9",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Potato-None-GarbageCan-10/trial_T20190907_161853_945788/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a cooked potato in the garbage can. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_161745_664033",
+    "variation_id": "variation_id_7d692ddafea0662c040804afe4ebe5a0",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Potato-None-GarbageCan-10/trial_T20190907_161745_664033/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Heat up a potato and put it in the trash.",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_074556_124850",
+    "variation_id": "variation_id_b42fa151c99f0925f8a33d3d666f0794",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074556_124850/game.tw-pddl",
+    "floor_plan": "FloorPlan219",
+    "goal": "Move the watch from the cabinet to the safe",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_074643_810052",
+    "variation_id": "variation_id_ad54eafe04ccb8ec24be099c83de2b75",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074643_810052/game.tw-pddl",
+    "floor_plan": "FloorPlan219",
+    "goal": "Place a watch inside a safe.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190907_074524_006355",
+    "variation_id": "variation_id_1fb4064dbb906947e046781a24aba8bf",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074524_006355/game.tw-pddl",
+    "floor_plan": "FloorPlan219",
+    "goal": "Move a watch to the inside of a small safe.",
+    "num_steps": 4
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_083429_887065",
+    "variation_id": "variation_id_593d9ee8228c0fd5b039fc0b40fb5bb4",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083429_887065/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a heated cup in a cabinet",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_083507_594820",
+    "variation_id": "variation_id_bd5b849bf4e63c24a484b5259f303a38",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083507_594820/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a warm cup in the cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190907_083346_800823",
+    "variation_id": "variation_id_cdb5af1faf8f3022049369909153854e",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083346_800823/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Warm up the cup inside the cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_061130_844814",
+    "variation_id": "variation_id_e2325dfc9c8ed77f507f05364d411835",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061130_844814/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a washed bowl away in a kitchen cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_061158_110530",
+    "variation_id": "variation_id_6f8ffdf3657fb774732bd84578efc730",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061158_110530/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a filled bowl of water in the cabinet left of the microwave.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_061232_368489",
+    "variation_id": "variation_id_b1ec05d70118e7aba7f1548000bb6891",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061232_368489/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a washed bowl in a cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_100632_546757",
+    "variation_id": "variation_id_5914347b606e7ab12da516ebbba6fd35",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_100632_546757/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Put a clean wash cloth on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_114340_674467",
+    "variation_id": "variation_id_ab63b9a8213c0448a16ca45301e8ed79",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_114340_674467/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Place a clean rag on a counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_145143_820541",
+    "variation_id": "variation_id_09c9af4618095d1a49b36d656dcbb3e9",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145143_820541/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a warmed up apple in the trash can.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_145356_918528",
+    "variation_id": "variation_id_60418f273d167c07b8b6a9e2c66204ea",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145356_918528/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put in the heated apple in the trash bin",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_145050_918567",
+    "variation_id": "variation_id_949b093503c365b613b4e95c90ca43a4",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145050_918567/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "place a microwaved apple inside the garbage bin",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_121559_082363",
+    "variation_id": "variation_id_346f64fe305d586926a62a8cc43506d6",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121559_082363/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a cold coffee up in the bottom cabinet. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_121710_650938",
+    "variation_id": "variation_id_7ba0b36f9eb5aaa305cf5323b18b35aa",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121710_650938/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a chilled mug in a cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190909_121635_622676",
+    "variation_id": "variation_id_1f86055e9c3e6cc28d516adf413acaca",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121635_622676/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a chilled mug in a cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_163240_345855",
+    "variation_id": "variation_id_f67292553d4eae693f31a8399ea8ae4f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163240_345855/game.tw-pddl",
+    "floor_plan": "FloorPlan219",
+    "goal": "Put two pillows on the sofa.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_163327_486300",
+    "variation_id": "variation_id_7b2e3744b55603b6c7daf27325fc9552",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163327_486300/game.tw-pddl",
+    "floor_plan": "FloorPlan219",
+    "goal": "Put two pillows on the couch.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190907_163408_914117",
+    "variation_id": "variation_id_78bdbe9143877cd4412525ecd13ca0b5",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163408_914117/game.tw-pddl",
+    "floor_plan": "FloorPlan219",
+    "goal": "Put two pillows on the sofa.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_205204_244321",
+    "variation_id": "variation_id_dabc6d436ce61fc956ed3af4b30ae8c1",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/game.tw-pddl",
+    "floor_plan": "FloorPlan219",
+    "goal": "Put a vase in a safe.",
+    "num_steps": 4
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_205221_748352",
+    "variation_id": "variation_id_d3399ab3954ec37f0886e3c8e57ae42c",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205221_748352/game.tw-pddl",
+    "floor_plan": "FloorPlan219",
+    "goal": "Put a vase in a safe.",
+    "num_steps": 4
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_205246_776817",
+    "variation_id": "variation_id_7fcfa0c7a20514240385e7c5b3be16ba",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205246_776817/game.tw-pddl",
+    "floor_plan": "FloorPlan219",
+    "goal": "Put the gold vase into the white safe",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_141942_810052",
+    "variation_id": "variation_id_a9e9a455462fc995f516bc8facf92386",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141942_810052/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "examine a CD with a lamp",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_142046_281296",
+    "variation_id": "variation_id_8c21d78890c6605712d3c3204f2f12fe",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_142046_281296/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Look at a CD under a lamp's light.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "look_at_obj_in_light",
+    "task_id": "trial_T20190908_141958_463362",
+    "variation_id": "variation_id_6b5548772065d5eb2536b7615d43603a",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141958_463362/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Turn on the desk lamp.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_120712_273910",
+    "variation_id": "variation_id_e5aa5586afc16da90db6e54c63e146a7",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120712_273910/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a clean egg in the microwave.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_120632_691361",
+    "variation_id": "variation_id_e4248204171df3fa6dd995792a173f76",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120632_691361/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a washed egg in a microwave.",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_120554_888709",
+    "variation_id": "variation_id_56a92ae48623822f3230df69b8a045fe",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120554_888709/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a clean egg in the microwave.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190912_221016_460197",
+    "variation_id": "variation_id_a57fd73fb26da52541d8889bcce74ad4",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221016_460197/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place two salt shakers in a drawer.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190912_221141_608117",
+    "variation_id": "variation_id_84b2da4942027c0bc07bb9ac6bc4be53",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221141_608117/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place two salt shakers in the drawer.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190908_010306_215435",
+    "variation_id": "variation_id_2324ce7ca3a5a7a0e35471258f6c2668",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190908_010306_215435/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put two shakers in a drawer.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190909_064053_839817",
+    "variation_id": "variation_id_56fb9aa63a9916042b1801033ea1d76b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064053_839817/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Throw two bars of soap in the trash bin.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190909_064309_357168",
+    "variation_id": "variation_id_2f9b8457d7f59986d9c2fc1bac27f366",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064309_357168/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Throw both pieces of soap into the trash can.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190909_064221_368939",
+    "variation_id": "variation_id_455dc3b3d82aa9a6be6508ee206ece22",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064221_368939/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "To move two bars of soap to the gold bin. ",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190906_191501_563086",
+    "variation_id": "variation_id_2e65721b6c5dde87fcd8e4b5843d6c18",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191501_563086/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place the salt shaker in the cabinet.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190906_191429_743650",
+    "variation_id": "variation_id_231dc07d9477fe762ea6e3c20b759517",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191429_743650/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place the salt shaker in the cabinet beside the fridge.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190906_191445_723170",
+    "variation_id": "variation_id_cee2b9966ac539cda16daf309dded89d",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191445_723170/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "To acquire an odd item as place it where it is not useful.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_113523_123938",
+    "variation_id": "variation_id_0c82605cf0d57ebd4bcc52192653f18b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113523_123938/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "place a microwaved egg inside the garbage bin",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_113610_425142",
+    "variation_id": "variation_id_c5b63e9ec6e05006c020236342f8588b",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113610_425142/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "To heat an egg and place it inside the black bin. ",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_113432_673307",
+    "variation_id": "variation_id_3375ac62fdf586a697d50392fc431007",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113432_673307/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a heated egg in a bin",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_203041_433487",
+    "variation_id": "variation_id_10a5c6cf566302c4f51c6da1e16669f8",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_203041_433487/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "take the mug from the desk shelf to put it on the desk.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_210238_431966",
+    "variation_id": "variation_id_4c2fc7aba36753e5480da3483884c3cd",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_210238_431966/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "take a coffee mug from a book shelf and place it on a desk",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190908_125200_737896",
+    "variation_id": "variation_id_f19c12b466e4b816a46d69e17c9f4104",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190908_125200_737896/game.tw-pddl",
+    "floor_plan": "FloorPlan308",
+    "goal": "Move a mug from the shelves to the desk.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190918_154326_823501",
+    "variation_id": "variation_id_a5f51158c1724595bd7b8f3abf4dd362",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154326_823501/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "take the salt by the coffee machine, put it in the second drawer",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190918_154424_844749",
+    "variation_id": "variation_id_01ec770cf0a5b5e16962854c9c089871",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154424_844749/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a salt shaker in a drawer.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190906_184021_215264",
+    "variation_id": "variation_id_7c37afd6b22da7a38bd098403a4cca01",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190906_184021_215264/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a salt shaker in a drawer.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190909_021200_669381",
+    "variation_id": "variation_id_f79e619c560f8d0c0eff90aadd70b816",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021200_669381/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a warmed mug in the cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190909_021100_341887",
+    "variation_id": "variation_id_73675344759f94240323b2639b61221d",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021100_341887/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a heated mug in a cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190909_021247_306737",
+    "variation_id": "variation_id_242885890c5812321ffde7fa53adb0d7",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021247_306737/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "heat up coffee in a mug and put it away inside the cabinet door",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_021728_339782",
+    "variation_id": "variation_id_5c86e318459c68f5b77e67271f4c4188",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021728_339782/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "move salt shaker from counter to drawer",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_021613_077537",
+    "variation_id": "variation_id_a56a3a30b4c43c377d222f266ba363d8",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021613_077537/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a salt shaker in a drawer next to the oven.",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_and_place_simple",
+    "task_id": "trial_T20190909_021650_880235",
+    "variation_id": "variation_id_3fc7331314cec3de244da6d421e671f0",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021650_880235/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "place a salt shaker in one of the pullout drawers",
+    "num_steps": 5
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190909_081746_857594",
+    "variation_id": "variation_id_1266318a431265f97fc9c3cbb2c9f597",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-Cabinet-424/trial_T20190909_081746_857594/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "To move two bars of soap to the cabinet. ",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190909_081720_491733",
+    "variation_id": "variation_id_5f4c9de217bbfafd94b9ea064bb954bb",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-Cabinet-424/trial_T20190909_081720_491733/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Put two bars of soap in the cabinet.",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_022436_073995",
+    "variation_id": "variation_id_34022947cc991586172d02e7092a2ff5",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022436_073995/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "wash the cloth from the cabinet, put it back",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190908_022321_380927",
+    "variation_id": "variation_id_b21484117996bbc0343a79830adf9c1f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022321_380927/game.tw-pddl",
+    "floor_plan": "FloorPlan424",
+    "goal": "Put a cleaned blue cloth in a cabinet.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_221355_558505",
+    "variation_id": "variation_id_b2799c6755a2220541869ed2581e5866",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221355_558505/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Pick up the white coffee cup, fill it in the sink, place it in the coffee maker. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_221300_362511",
+    "variation_id": "variation_id_1f64c09893090ba30a79fb3e446eb2e3",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221300_362511/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a cleaned mug on the coffee maker to the right of the stove.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190907_221208_560499",
+    "variation_id": "variation_id_40afdbed8b60e9aace0d074095d224b3",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221208_560499/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Fill up a mug with water and take to the coffee machine.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_225046_020282",
+    "variation_id": "variation_id_a6d322507f680284d3466658dcc26cf5",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225046_020282/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Heat a tomato and place in a bin. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_225359_617900",
+    "variation_id": "variation_id_293824ced4682f26cc687389102ae5b8",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225359_617900/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Heat a tomato and place in the bin. ",
+    "num_steps": 6
+  },
+  {
+    "task_type": "pick_heat_then_place_in_recep",
+    "task_id": "trial_T20190908_225453_272533",
+    "variation_id": "variation_id_327d736cf81f04717c97c41b0d7dc56c",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225453_272533/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Heat a tomato and throw it away.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190909_011803_423115",
+    "variation_id": "variation_id_6eb58fd14aeb691dcdefa15685ced1eb",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_011803_423115/game.tw-pddl",
+    "floor_plan": "FloorPlan219",
+    "goal": "put two sets of keys inside safe",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_two_obj_and_place",
+    "task_id": "trial_T20190909_012027_782483",
+    "variation_id": "variation_id_1fea411103ce85f1de8d99f2722cfe54",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_012027_782483/game.tw-pddl",
+    "floor_plan": "FloorPlan219",
+    "goal": "Put two sets of keys in the safe. ",
+    "num_steps": 9
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_114545_244903",
+    "variation_id": "variation_id_64482624c686ff7d154abcf870384a66",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114545_244903/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a chilled pan on a counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_114656_768805",
+    "variation_id": "variation_id_11587d8e9a7cf54c237700e9382fcedb",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114656_768805/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a cold pan on the counter top on top of the dishwasher. ",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_cool_then_place_in_recep",
+    "task_id": "trial_T20190908_114622_738670",
+    "variation_id": "variation_id_cd621daf299afe7dde1a6846f1d40e2f",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114622_738670/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Put a chilled pan on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_110445_675754",
+    "variation_id": "variation_id_5dbfa3a91d996ed77a2bcf010a5a4494",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110445_675754/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Place a clean knife on a plate on the counter.",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_110347_624008",
+    "variation_id": "variation_id_899cca4e971b2ba41a8337c67a7ee7fd",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110347_624008/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "put a knife in the sink before standing it on the counter",
+    "num_steps": 7
+  },
+  {
+    "task_type": "pick_clean_then_place_in_recep",
+    "task_id": "trial_T20190909_110531_148235",
+    "variation_id": "variation_id_0b9d3c6a9fe272695111ef1e9dda07fe",
+    "game_file": "environments/alfworld/data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110531_148235/game.tw-pddl",
+    "floor_plan": "FloorPlan10",
+    "goal": "Wash a knife in the sink to place on a countertop.",
+    "num_steps": 7
+  }
+]

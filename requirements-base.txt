@@ -1,0 +1,37 @@
+# Core dependencies shared across all environments
+# Install this first: pip install -r requirements-base.txt
+
+# Python utilities
+python-dotenv==1.0.1
+PyYAML==6.0.3
+requests==2.32.3
+packaging==24.2
+
+# Data processing
+# NumPy 2.x for thinc compatibility while supporting torch 2.4.0
+numpy>=2.0.0,<3.0.0
+
+# Machine Learning and Embeddings (shared)
+# PyTorch 2.4.0 ecosystem for compatibility with torchaudio/torchvision
+torch==2.4.0
+torchaudio==2.4.0
+torchvision==0.19.0
+transformers==4.46.3
+sentence-transformers==3.3.1
+huggingface-hub==0.26.5
+
+# API clients
+openai==1.105.0
+llm-rankers==0.0.2
+
+# Retrieval and Search
+rank-bm25==0.2.2
+faiss-cpu==1.8.0
+lancedb==0.29.2
+pyarrow==23.0.1
+
+# LTR / feature pipeline
+pandas==3.0.1
+scikit-learn==1.8.0
+xgboost==2.1.4
+tqdm==4.67.3

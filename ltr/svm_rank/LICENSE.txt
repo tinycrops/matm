@@ -1,0 +1,26 @@
+SVMrank License
+===============
+
+The SVMrank software (svm_rank_learn, svm_rank_classify) was developed by
+Thorsten Joachims (tj@cs.cornell.edu), Cornell University Department of
+Computer Science. It is distributed by Cornell University via:
+
+    https://www.cs.cornell.edu/people/tj/svm_light/svm_rank.html
+
+The author's redistribution terms (as stated on the SVMrank distribution page):
+
+> The program is free for scientific use. Please contact the author, if you
+> are planning to use the software for commercial purposes. The software must
+> not be modified and distributed without prior permission of the author. The
+> author is not responsible for implications from the use of this software.
+
+The copy of SVMrank shipped in this directory is redistributed under those
+terms. Source code for SVMrank is available from the URL above. SVMrank is
+NOT part of the MATM project and is NOT covered by the Apache-2.0 license
+that applies to the rest of this repository.
+
+For commercial use, contact Thorsten Joachims (tj@cs.cornell.edu) directly.
+
+Citation:
+  T. Joachims, "Training Linear SVMs in Linear Time", Proceedings of the
+  ACM Conference on Knowledge Discovery and Data Mining (KDD), 2006.

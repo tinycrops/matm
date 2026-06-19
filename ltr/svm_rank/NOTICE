@@ -1,0 +1,17 @@
+This directory contains SVMrank executables (svm_rank_learn, svm_rank_classify)
+authored by Thorsten Joachims (Cornell University), redistributed with the
+MATM codebase for convenience.
+
+SVMrank is NOT part of MATM and is NOT covered by MATM's Apache-2.0 license.
+
+Author : Thorsten Joachims (tj@cs.cornell.edu)
+Source : https://www.cs.cornell.edu/people/tj/svm_light/svm_rank.html
+License: Free for scientific use (see LICENSE.txt in this directory).
+
+If you redistribute or extend MATM and the SVMrank license terms are
+incompatible with your use case, remove these binaries and obtain them
+directly from the URL above.
+
+Citation:
+  T. Joachims, "Training Linear SVMs in Linear Time", Proceedings of the
+  ACM Conference on Knowledge Discovery and Data Mining (KDD), 2006.

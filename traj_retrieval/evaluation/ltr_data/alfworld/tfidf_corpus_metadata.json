@@ -1,0 +1,38 @@
+{
+  "environment": "alfworld",
+  "num_trajectories": 67570,
+  "tfidf_params": {
+    "max_features": null,
+    "min_df": 1,
+    "max_df": 0.95,
+    "ngram_range": [
+      1,
+      1
+    ],
+    "lowercase": true,
+    "strip_accents": "unicode",
+    "token_pattern": "(?u)\\b\\w+\\b"
+  },
+  "components": {
+    "full": {
+      "num_documents": 67570,
+      "num_non_empty": 67570,
+      "vocabulary_size": 744
+    },
+    "goal": {
+      "num_documents": 67570,
+      "num_non_empty": 67570,
+      "vocabulary_size": 639
+    },
+    "state": {
+      "num_documents": 67570,
+      "num_non_empty": 67570,
+      "vocabulary_size": 194
+    },
+    "context": {
+      "num_documents": 67570,
+      "num_non_empty": 64078,
+      "vocabulary_size": 198
+    }
+  }
+}

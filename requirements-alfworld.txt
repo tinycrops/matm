@@ -1,0 +1,12 @@
+# AlfWorld-specific dependencies
+# First install: pip install -r requirements-base.txt
+# Then install: pip install -r requirements-alfworld.txt
+
+# AlfWorld core
+alfworld>=0.3.0
+textworld>=1.5.0
+
+# Additional dependencies for AlfWorld
+gym>=0.21.0
+pillow>=9.0.0
+

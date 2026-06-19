@@ -1,0 +1,24 @@
+# WebArena-specific dependencies.
+#
+# WebArena requires a self-hosted browser environment plus the upstream
+# `browser_env` Python package. We do NOT pin or redistribute it here because
+# the upstream project drives that install.
+#
+# Setup:
+#   1. Follow https://github.com/web-arena-x/webarena to deploy WebArena
+#      (Docker compose, sites, accounts, etc.).
+#   2. Clone the WebArena repo and install its requirements:
+#         git clone https://github.com/web-arena-x/webarena.git
+#         pip install -r webarena/requirements.txt
+#         playwright install chromium
+#   3. Export the path so MATM can import the upstream `browser_env` package:
+#         export WEBARENA_RENEW_WEBARENA_PATH=/abs/path/to/webarena
+#   4. Export your deployment hostname (read by webarena_handler.py):
+#         export WEBARENA_HOST=your-webarena-host.example.com
+#
+# The MATM runner (traj_retrieval/run_webarena.py) shells out to a subprocess
+# that imports `playwright.sync_api` and `browser_env.env_config` from the path
+# in WEBARENA_RENEW_WEBARENA_PATH. Both are installed by step 2.
+#
+# Pin nothing here — match the versions WebArena itself requires to avoid
+# conflicts.

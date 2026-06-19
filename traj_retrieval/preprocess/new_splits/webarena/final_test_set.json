@@ -1,0 +1,1066 @@
+[
+  {
+    "task_name": "intent_template_id_332",
+    "variation_id": "task_id_756",
+    "task_id": 756,
+    "intent_template_id": 332,
+    "config_file": "environments/webarena/webarena/config_files/756.json",
+    "max_steps": 30,
+    "intent": "Create a private JEKYLL repository called \"11711_gitlab\" using the right template to speed up development.",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_247",
+    "variation_id": "task_id_462",
+    "task_id": 462,
+    "intent_template_id": 247,
+    "config_file": "environments/webarena/webarena/config_files/462.json",
+    "max_steps": 30,
+    "intent": "Increase the price of this product by 10%",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_329",
+    "variation_id": "task_id_297",
+    "task_id": 297,
+    "intent_template_id": 329,
+    "config_file": "environments/webarena/webarena/config_files/297.json",
+    "max_steps": 30,
+    "intent": "Show me the command to clone the most stared Covid location tracker with SSH.",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_16",
+    "variation_id": "task_id_640",
+    "task_id": 640,
+    "intent_template_id": 16,
+    "config_file": "environments/webarena/webarena/config_files/640.json",
+    "max_steps": 30,
+    "intent": "Post a notice on a virtual meetup for book reading enthusiasts on March 15th in the r/books subreddit",
+    "sites": [
+      "reddit"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_6100",
+    "variation_id": "task_id_635",
+    "task_id": 635,
+    "intent_template_id": 6100,
+    "config_file": "environments/webarena/webarena/config_files/635.json",
+    "max_steps": 30,
+    "intent": "Post in the most appropriate subreddit and ask for recommendations for noise-cancelling headphones products within a budget of $200",
+    "sites": [
+      "reddit"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_189",
+    "variation_id": "task_id_513",
+    "task_id": 513,
+    "intent_template_id": 189,
+    "config_file": "environments/webarena/webarena/config_files/513.json",
+    "max_steps": 30,
+    "intent": "Add a chair to my wish list.",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_153",
+    "variation_id": "task_id_654",
+    "task_id": 654,
+    "intent_template_id": 153,
+    "config_file": "environments/webarena/webarena/config_files/654.json",
+    "max_steps": 30,
+    "intent": "Fill the \"contact us\" form in the site for a refund on the bluetooth speaker I bought, stating that it broke after just three days of use. Also, ensure to include the order number #161 and the product SKU. Don't submit yet, I will check.",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_23",
+    "variation_id": "task_id_651",
+    "task_id": 651,
+    "intent_template_id": 23,
+    "config_file": "environments/webarena/webarena/config_files/651.json",
+    "max_steps": 30,
+    "intent": "Reply to the post with my comment \"Yeah, pittsburgh traffic, you know...\"",
+    "sites": [
+      "reddit"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_280",
+    "variation_id": "task_id_491",
+    "task_id": 491,
+    "intent_template_id": 280,
+    "config_file": "environments/webarena/webarena/config_files/491.json",
+    "max_steps": 30,
+    "intent": "Notify Sarah Miller in their most recent pending order with message \"the order is ready to be shipped soon!\"",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_2100",
+    "variation_id": "task_id_747",
+    "task_id": 747,
+    "intent_template_id": 2100,
+    "config_file": "environments/webarena/webarena/config_files/747.json",
+    "max_steps": 30,
+    "intent": "Start a private project awesome_web_agents with blank template and add Abishek, Vinta as members",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_242",
+    "variation_id": "task_id_454",
+    "task_id": 454,
+    "intent_template_id": 242,
+    "config_file": "environments/webarena/webarena/config_files/454.json",
+    "max_steps": 30,
+    "intent": "Disable Ryker Tee Crew Neck from the site, they are facing some quality issues.",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_335",
+    "variation_id": "task_id_805",
+    "task_id": 805,
+    "intent_template_id": 335,
+    "config_file": "environments/webarena/webarena/config_files/805.json",
+    "max_steps": 30,
+    "intent": "Submit a merge request for the branch that implements the support of template strings to be merged into master branch, assign myself and Roshan as the reviewer",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_331",
+    "variation_id": "task_id_451",
+    "task_id": 451,
+    "intent_template_id": 331,
+    "config_file": "environments/webarena/webarena/config_files/451.json",
+    "max_steps": 30,
+    "intent": "set the homepage URL on my GitLab profile to www.byteblaze.com",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_270",
+    "variation_id": "task_id_111",
+    "task_id": 111,
+    "intent_template_id": 270,
+    "config_file": "environments/webarena/webarena/config_files/111.json",
+    "max_steps": 30,
+    "intent": "Presents the monthly count of successful orders from Feb to Nov 2022 in MM:COUNT format",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_87",
+    "variation_id": "task_id_557",
+    "task_id": 557,
+    "intent_template_id": 87,
+    "config_file": "environments/webarena/webarena/config_files/557.json",
+    "max_steps": 30,
+    "intent": "Create a repo named nolan_old_fans with movies directed by Christopher Nolan before 2010 in a README file",
+    "sites": [
+      "gitlab",
+      "wikipedia"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_211",
+    "variation_id": "task_id_262",
+    "task_id": 262,
+    "intent_template_id": 211,
+    "config_file": "environments/webarena/webarena/config_files/262.json",
+    "max_steps": 30,
+    "intent": "I want to browse the products in the Men shoes category",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_147",
+    "variation_id": "task_id_330",
+    "task_id": 330,
+    "intent_template_id": 147,
+    "config_file": "environments/webarena/webarena/config_files/330.json",
+    "max_steps": 30,
+    "intent": "How much I spend in March 2023 on shopping at One Stop Market?",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_41",
+    "variation_id": "task_id_219",
+    "task_id": 219,
+    "intent_template_id": 41,
+    "config_file": "environments/webarena/webarena/config_files/219.json",
+    "max_steps": 30,
+    "intent": "Show me the walking distance from nearby hotels to Pittsburgh airport that take at most 3 minutes?",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_7",
+    "variation_id": "task_id_584",
+    "task_id": 584,
+    "intent_template_id": 7,
+    "config_file": "environments/webarena/webarena/config_files/584.json",
+    "max_steps": 30,
+    "intent": "Create a new forum named Karaoke, with a description of Place for Karaoke lovers, and include ['devices', 'setup'] in the sidebar?",
+    "sites": [
+      "reddit"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_12",
+    "variation_id": "task_id_623",
+    "task_id": 623,
+    "intent_template_id": 12,
+    "config_file": "environments/webarena/webarena/config_files/623.json",
+    "max_steps": 30,
+    "intent": "Ask for advice about gift for birthday in a subreddit for relations",
+    "sites": [
+      "reddit"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_4",
+    "variation_id": "task_id_598",
+    "task_id": 598,
+    "intent_template_id": 4,
+    "config_file": "environments/webarena/webarena/config_files/598.json",
+    "max_steps": 30,
+    "intent": "Open the thread of a trending post on the forum \"pittsburgh\" and subscribe.",
+    "sites": [
+      "reddit"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_501",
+    "variation_id": "task_id_256",
+    "task_id": 256,
+    "intent_template_id": 501,
+    "config_file": "environments/webarena/webarena/config_files/256.json",
+    "max_steps": 30,
+    "intent": "What is the website of Carnegie art museum in pittsburgh",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_35",
+    "variation_id": "task_id_221",
+    "task_id": 221,
+    "intent_template_id": 35,
+    "config_file": "environments/webarena/webarena/config_files/221.json",
+    "max_steps": 30,
+    "intent": "I am at CMU Pittsburgh, how long it takes to the nearest USPS postal office with different transportation methods?",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_1355",
+    "variation_id": "task_id_386",
+    "task_id": 386,
+    "intent_template_id": 1355,
+    "config_file": "environments/webarena/webarena/config_files/386.json",
+    "max_steps": 30,
+    "intent": "What is the rating of Ugreen lightning to 3.5mm cable. Please round to the nearest whole number",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_46",
+    "variation_id": "task_id_248",
+    "task_id": 248,
+    "intent_template_id": 46,
+    "config_file": "environments/webarena/webarena/config_files/248.json",
+    "max_steps": 30,
+    "intent": "Tell me the coordinates of Carnegie Mellon Café in DD format",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_139",
+    "variation_id": "task_id_272",
+    "task_id": 272,
+    "intent_template_id": 139,
+    "config_file": "environments/webarena/webarena/config_files/272.json",
+    "max_steps": 30,
+    "intent": "Show me products under $78 in \"children dental care\" category",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_155",
+    "variation_id": "task_id_146",
+    "task_id": 146,
+    "intent_template_id": 155,
+    "config_file": "environments/webarena/webarena/config_files/146.json",
+    "max_steps": 30,
+    "intent": "What is the size configuration of the picture frame I bought Sep 2022",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_101",
+    "variation_id": "task_id_674",
+    "task_id": 674,
+    "intent_template_id": 101,
+    "config_file": "environments/webarena/webarena/config_files/674.json",
+    "max_steps": 30,
+    "intent": "Gather the titles of Doc and Pies Arcade Factory Cocktail Arcade Machine reviews with 3 stars and less rating from OneStopShop, and post them in the games subreddit under the title \"real user feedback on Doc and Pies Arcade Factory Cocktail Arcade Machine\"",
+    "sites": [
+      "shopping",
+      "reddit"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_354",
+    "variation_id": "task_id_526",
+    "task_id": 526,
+    "intent_template_id": 354,
+    "config_file": "environments/webarena/webarena/config_files/526.json",
+    "max_steps": 30,
+    "intent": "Star the top three most stared repos in Gitlab",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_204",
+    "variation_id": "task_id_279",
+    "task_id": 279,
+    "intent_template_id": 204,
+    "config_file": "environments/webarena/webarena/config_files/279.json",
+    "max_steps": 30,
+    "intent": "Provide me with the complete names of Bluetooth headphones from Sony, and also share the price range for the available models",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_72",
+    "variation_id": "task_id_83",
+    "task_id": 83,
+    "intent_template_id": 72,
+    "config_file": "environments/webarena/webarena/config_files/83.json",
+    "max_steps": 30,
+    "intent": "What is the duration required to first walk from Carnegie Mellon University to apple store shadyside, and then drive to starbucks on craig street?",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_136",
+    "variation_id": "task_id_165",
+    "task_id": 165,
+    "intent_template_id": 136,
+    "config_file": "environments/webarena/webarena/config_files/165.json",
+    "max_steps": 30,
+    "intent": "What are the main criticisms of this product? Please extract the relevant sentences.",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_349",
+    "variation_id": "task_id_104",
+    "task_id": 104,
+    "intent_template_id": 349,
+    "config_file": "environments/webarena/webarena/config_files/104.json",
+    "max_steps": 30,
+    "intent": "Display the list of issues in the keycloak/keycloak repository that have labels related to flaky-test",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_49",
+    "variation_id": "task_id_356",
+    "task_id": 356,
+    "intent_template_id": 49,
+    "config_file": "environments/webarena/webarena/config_files/356.json",
+    "max_steps": 30,
+    "intent": "Show the route from SCS CMU in Pittsburgh to the location where the Declaration of Independence and Constitution were signed",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_64",
+    "variation_id": "task_id_87",
+    "task_id": 87,
+    "intent_template_id": 64,
+    "config_file": "environments/webarena/webarena/config_files/87.json",
+    "max_steps": 30,
+    "intent": "From my stay at red roof inn, what's the estimated driving time to reach Pittsburgh science museum?",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_355",
+    "variation_id": "task_id_736",
+    "task_id": 736,
+    "intent_template_id": 355,
+    "config_file": "environments/webarena/webarena/config_files/736.json",
+    "max_steps": 30,
+    "intent": "Make the LICENSE of gimmiethat.space and dotfiles to MIT license.",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_68",
+    "variation_id": "task_id_55",
+    "task_id": 55,
+    "intent_template_id": 68,
+    "config_file": "environments/webarena/webarena/config_files/55.json",
+    "max_steps": 30,
+    "intent": "How long does it take to walk from the starbuck near CMU to Chatham university?",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_288",
+    "variation_id": "task_id_15",
+    "task_id": 15,
+    "intent_template_id": 288,
+    "config_file": "environments/webarena/webarena/config_files/15.json",
+    "max_steps": 30,
+    "intent": "Tell me the the number of reviews that our store received by far that mention term \"best\"",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_324",
+    "variation_id": "task_id_315",
+    "task_id": 315,
+    "intent_template_id": 324,
+    "config_file": "environments/webarena/webarena/config_files/315.json",
+    "max_steps": 30,
+    "intent": "List the email address of the top 3 contributors to Pytorch GAN repo, ranked by the number of commits?",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_268",
+    "variation_id": "task_id_707",
+    "task_id": 707,
+    "intent_template_id": 268,
+    "config_file": "environments/webarena/webarena/config_files/707.json",
+    "max_steps": 30,
+    "intent": "Today is 3/15/2023, generate a sales order report for last year",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_299",
+    "variation_id": "task_id_342",
+    "task_id": 342,
+    "intent_template_id": 299,
+    "config_file": "environments/webarena/webarena/config_files/342.json",
+    "max_steps": 30,
+    "intent": "List all opened issues that ask about OPT model related questions",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_257",
+    "variation_id": "task_id_474",
+    "task_id": 474,
+    "intent_template_id": 257,
+    "config_file": "environments/webarena/webarena/config_files/474.json",
+    "max_steps": 30,
+    "intent": "Cancel order 305",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_276",
+    "variation_id": "task_id_63",
+    "task_id": 63,
+    "intent_template_id": 276,
+    "config_file": "environments/webarena/webarena/config_files/63.json",
+    "max_steps": 30,
+    "intent": "Which customer(s) has completed the second most number of orders in the entire history?",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_87",
+    "variation_id": "task_id_560",
+    "task_id": 560,
+    "intent_template_id": 87,
+    "config_file": "environments/webarena/webarena/config_files/560.json",
+    "max_steps": 30,
+    "intent": "Create a repo named nolan_academy_awards with movies that won Academy Awards by Christopher Nolan in a README file",
+    "sites": [
+      "gitlab",
+      "wikipedia"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_145",
+    "variation_id": "task_id_435",
+    "task_id": 435,
+    "intent_template_id": 145,
+    "config_file": "environments/webarena/webarena/config_files/435.json",
+    "max_steps": 30,
+    "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_171",
+    "variation_id": "task_id_160",
+    "task_id": 160,
+    "intent_template_id": 171,
+    "config_file": "environments/webarena/webarena/config_files/160.json",
+    "max_steps": 30,
+    "intent": "I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 6 cards",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_101",
+    "variation_id": "task_id_671",
+    "task_id": 671,
+    "intent_template_id": 101,
+    "config_file": "environments/webarena/webarena/config_files/671.json",
+    "max_steps": 30,
+    "intent": "Gather the titles of Sony Computer Entertainment VR reviews with 2 stars and less rating from OneStopShop, and post them in the games subreddit under the title \"real user feedback on Sony Computer Entertainment VR\"",
+    "sites": [
+      "shopping",
+      "reddit"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_293",
+    "variation_id": "task_id_567",
+    "task_id": 567,
+    "intent_template_id": 293,
+    "config_file": "environments/webarena/webarena/config_files/567.json",
+    "max_steps": 30,
+    "intent": "Invite Jakub Klinkovský and Benoît Blanchon as collaborator to gimmiethat.space repo",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_139",
+    "variation_id": "task_id_269",
+    "task_id": 269,
+    "intent_template_id": 139,
+    "config_file": "environments/webarena/webarena/config_files/269.json",
+    "max_steps": 30,
+    "intent": "Show me products under $25 in \"women shoes\" category",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_88",
+    "variation_id": "task_id_563",
+    "task_id": 563,
+    "intent_template_id": 88,
+    "config_file": "environments/webarena/webarena/config_files/563.json",
+    "max_steps": 30,
+    "intent": "create a repository named fun_thing_to_do that includes a README file with the links to the most active 5 DIY ideas on DIY subreddit?",
+    "sites": [
+      "gitlab",
+      "reddit"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_999",
+    "variation_id": "task_id_446",
+    "task_id": 446,
+    "intent_template_id": 999,
+    "config_file": "environments/webarena/webarena/config_files/446.json",
+    "max_steps": 30,
+    "intent": "Assign the issue regarding 404 in a11yproject to Roshanjossey.",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_58",
+    "variation_id": "task_id_363",
+    "task_id": 363,
+    "intent_template_id": 58,
+    "config_file": "environments/webarena/webarena/config_files/363.json",
+    "max_steps": 30,
+    "intent": "Measure distance between Carnegie Mellon University and Carnegie Music Hall by walking",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_271",
+    "variation_id": "task_id_713",
+    "task_id": 713,
+    "intent_template_id": 271,
+    "config_file": "environments/webarena/webarena/config_files/713.json",
+    "max_steps": 30,
+    "intent": "Create a best sellers report from 05/01/2022 to 05/31/2023",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_180",
+    "variation_id": "task_id_302",
+    "task_id": 302,
+    "intent_template_id": 180,
+    "config_file": "environments/webarena/webarena/config_files/302.json",
+    "max_steps": 30,
+    "intent": "Show the most recent out of delivery order",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_151",
+    "variation_id": "task_id_118",
+    "task_id": 118,
+    "intent_template_id": 151,
+    "config_file": "environments/webarena/webarena/config_files/118.json",
+    "max_steps": 30,
+    "intent": "I have jaw bruxism problem, show me something that could alleviate the problem.",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_321",
+    "variation_id": "task_id_303",
+    "task_id": 303,
+    "intent_template_id": 321,
+    "config_file": "environments/webarena/webarena/config_files/303.json",
+    "max_steps": 30,
+    "intent": "How many commits did Kilian make durning 2023?",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_323",
+    "variation_id": "task_id_310",
+    "task_id": 310,
+    "intent_template_id": 323,
+    "config_file": "environments/webarena/webarena/config_files/310.json",
+    "max_steps": 30,
+    "intent": "Tell me who has made the most contributions, in terms of number of commits, to the AndroidSlidingUpPanel project",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_244",
+    "variation_id": "task_id_244",
+    "task_id": 244,
+    "intent_template_id": 244,
+    "config_file": "environments/webarena/webarena/config_files/244.json",
+    "max_steps": 30,
+    "intent": "Show me the email address of the customer who is the most unhappy with Olivia zip jacket",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_360",
+    "variation_id": "task_id_417",
+    "task_id": 417,
+    "intent_template_id": 360,
+    "config_file": "environments/webarena/webarena/config_files/417.json",
+    "max_steps": 30,
+    "intent": "Go to the merge request on 404 link I have to review, find if the author of the merge request responded at the end, and reply \"Thank you\" if he did. Otherwise remind him with a simple @.",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_117",
+    "variation_id": "task_id_688",
+    "task_id": 688,
+    "intent_template_id": 117,
+    "config_file": "environments/webarena/webarena/config_files/688.json",
+    "max_steps": 30,
+    "intent": "Promote lahwaacz/arch-wiki-docs to subreddit science with the description from the repo itself.",
+    "sites": [
+      "reddit",
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_289",
+    "variation_id": "task_id_169",
+    "task_id": 169,
+    "intent_template_id": 289,
+    "config_file": "environments/webarena/webarena/config_files/169.json",
+    "max_steps": 30,
+    "intent": "Tell me the full names of the repositories where I made contributions and they got the most stars?",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_322",
+    "variation_id": "task_id_132",
+    "task_id": 132,
+    "intent_template_id": 322,
+    "config_file": "environments/webarena/webarena/config_files/132.json",
+    "max_steps": 30,
+    "intent": "How many commits did kilian make to a11yproject on 3/5/2023?",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_327",
+    "variation_id": "task_id_809",
+    "task_id": 809,
+    "intent_template_id": 327,
+    "config_file": "environments/webarena/webarena/config_files/809.json",
+    "max_steps": 30,
+    "intent": "Create an issue in a11yproject repo with title \"404 for many URLs\". Assign the issue to myself. Set due date to be 2030-1-3",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_290",
+    "variation_id": "task_id_156",
+    "task_id": 156,
+    "intent_template_id": 290,
+    "config_file": "environments/webarena/webarena/config_files/156.json",
+    "max_steps": 30,
+    "intent": "Checkout merge requests assigned to me",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_243",
+    "variation_id": "task_id_771",
+    "task_id": 771,
+    "intent_template_id": 243,
+    "config_file": "environments/webarena/webarena/config_files/771.json",
+    "max_steps": 30,
+    "intent": "Approve the positive reviews to display in our store.",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_66",
+    "variation_id": "task_id_98",
+    "task_id": 98,
+    "intent_template_id": 66,
+    "config_file": "environments/webarena/webarena/config_files/98.json",
+    "max_steps": 30,
+    "intent": "Where is the nearest tea cafe to University of Pittsburgh, and what is the walking distance to it?",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_68",
+    "variation_id": "task_id_54",
+    "task_id": 54,
+    "intent_template_id": 68,
+    "config_file": "environments/webarena/webarena/config_files/54.json",
+    "max_steps": 30,
+    "intent": "How long does it take to walk from Carnegie Mellon University to Univ of Pittsburgh?",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_154",
+    "variation_id": "task_id_531",
+    "task_id": 531,
+    "intent_template_id": 154,
+    "config_file": "environments/webarena/webarena/config_files/531.json",
+    "max_steps": 30,
+    "intent": "Draft a refund message via their \"contact us\" form for the phone case I bought March 2023. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don't submit yet",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_327",
+    "variation_id": "task_id_659",
+    "task_id": 659,
+    "intent_template_id": 327,
+    "config_file": "environments/webarena/webarena/config_files/659.json",
+    "max_steps": 30,
+    "intent": "Create an issue in empathy-prompts repo with title \"Integrating LLMs for better prompts\". Assign the issue to Roshanjossey. Set due date to be the beginning of Q2 2033",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_600",
+    "variation_id": "task_id_799",
+    "task_id": 799,
+    "intent_template_id": 600,
+    "config_file": "environments/webarena/webarena/config_files/799.json",
+    "max_steps": 30,
+    "intent": "create a new group \"n-lab\" with members patou, egpast, westurner, jontutcher",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_139",
+    "variation_id": "task_id_271",
+    "task_id": 271,
+    "intent_template_id": 139,
+    "config_file": "environments/webarena/webarena/config_files/271.json",
+    "max_steps": 30,
+    "intent": "Show me products under $46.99 in \"makeup remover\" category",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_293",
+    "variation_id": "task_id_480",
+    "task_id": 480,
+    "intent_template_id": 293,
+    "config_file": "environments/webarena/webarena/config_files/480.json",
+    "max_steps": 30,
+    "intent": "Invite yjlou as collaborator to solarized-prism-theme",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_69",
+    "variation_id": "task_id_61",
+    "task_id": 61,
+    "intent_template_id": 69,
+    "config_file": "environments/webarena/webarena/config_files/61.json",
+    "max_steps": 30,
+    "intent": "Tell me the closest restaurant(s) to CMU Sorrells Library",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_84",
+    "variation_id": "task_id_791",
+    "task_id": 791,
+    "intent_template_id": 84,
+    "config_file": "environments/webarena/webarena/config_files/791.json",
+    "max_steps": 30,
+    "intent": "Make a folder named car on the gimmiethat.space repo and include a file called urls.txt that consists of the links to the 5 most recent posts from cars.",
+    "sites": [
+      "gitlab",
+      "reddit"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_5",
+    "variation_id": "task_id_607",
+    "task_id": 607,
+    "intent_template_id": 5,
+    "config_file": "environments/webarena/webarena/config_files/607.json",
+    "max_steps": 30,
+    "intent": "Find a subreddit focused on topics related to city Pittsburgh, and post my question, \"places for new drivers to learn driving\" there",
+    "sites": [
+      "reddit"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_999",
+    "variation_id": "task_id_804",
+    "task_id": 804,
+    "intent_template_id": 999,
+    "config_file": "environments/webarena/webarena/config_files/804.json",
+    "max_steps": 30,
+    "intent": "Assign the issue regarding flash alerts to myself and primer.",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_329",
+    "variation_id": "task_id_295",
+    "task_id": 295,
+    "intent_template_id": 329,
+    "config_file": "environments/webarena/webarena/config_files/295.json",
+    "max_steps": 30,
+    "intent": "Show me the command to clone metaseq with SSH.",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_500",
+    "variation_id": "task_id_182",
+    "task_id": 182,
+    "intent_template_id": 500,
+    "config_file": "environments/webarena/webarena/config_files/182.json",
+    "max_steps": 30,
+    "intent": "Open my latest created issue that has homepage content in its title to check if it is closed",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_72",
+    "variation_id": "task_id_80",
+    "task_id": 80,
+    "intent_template_id": 72,
+    "config_file": "environments/webarena/webarena/config_files/80.json",
+    "max_steps": 30,
+    "intent": "What is the duration required to first walk from Carnegie Mellon University to Starbucks on Craig Street, and then drive to Pittsburgh International Airport?",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_328",
+    "variation_id": "task_id_663",
+    "task_id": 663,
+    "intent_template_id": 328,
+    "config_file": "environments/webarena/webarena/config_files/663.json",
+    "max_steps": 30,
+    "intent": "Open an issue to ask their plan on supporting Llama and other llama family models in metaseq.",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_355",
+    "variation_id": "task_id_414",
+    "task_id": 414,
+    "intent_template_id": 355,
+    "config_file": "environments/webarena/webarena/config_files/414.json",
+    "max_steps": 30,
+    "intent": "Make the LICENSE of byteblaze/dotfiles to MIT license.",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_65",
+    "variation_id": "task_id_74",
+    "task_id": 74,
+    "intent_template_id": 65,
+    "config_file": "environments/webarena/webarena/config_files/74.json",
+    "max_steps": 30,
+    "intent": "Given the following locations, ['Carnegie Mellon University', 'apple store shadyside', 'starbucks on craig street'], what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_330",
+    "variation_id": "task_id_537",
+    "task_id": 537,
+    "intent_template_id": 330,
+    "config_file": "environments/webarena/webarena/config_files/537.json",
+    "max_steps": 30,
+    "intent": "Follow ['Jakub Klinkovsk', 'convexegg', 'Vinta Chen', 'yjlou', 'Abishek S'] on Gitlab",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_328",
+    "variation_id": "task_id_789",
+    "task_id": 789,
+    "intent_template_id": 328,
+    "config_file": "environments/webarena/webarena/config_files/789.json",
+    "max_steps": 30,
+    "intent": "Create an issue asking about do they have any plan on supporting Webagent in the next quater in huggingface dataset.",
+    "sites": [
+      "gitlab"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_287",
+    "variation_id": "task_id_504",
+    "task_id": 504,
+    "intent_template_id": 287,
+    "config_file": "environments/webarena/webarena/config_files/504.json",
+    "max_steps": 30,
+    "intent": "Make all Selene yoga hoodie as out of stock",
+    "sites": [
+      "shopping_admin"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_208",
+    "variation_id": "task_id_326",
+    "task_id": 326,
+    "intent_template_id": 208,
+    "config_file": "environments/webarena/webarena/config_files/326.json",
+    "max_steps": 30,
+    "intent": "Show me the \"Canon photo printer\" listings by search relevance, from most to least.",
+    "sites": [
+      "shopping"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_79",
+    "variation_id": "task_id_7",
+    "task_id": 7,
+    "intent_template_id": 79,
+    "config_file": "environments/webarena/webarena/config_files/7.json",
+    "max_steps": 30,
+    "intent": "Tell me the full address of all international airports that are within a driving distance of 50 km to Carnegie Mellon University",
+    "sites": [
+      "map"
+    ]
+  },
+  {
+    "task_name": "intent_template_id_101",
+    "variation_id": "task_id_673",
+    "task_id": 673,
+    "intent_template_id": 101,
+    "config_file": "environments/webarena/webarena/config_files/673.json",
+    "max_steps": 30,
+    "intent": "Gather the titles of Racing Wheel Overdrive for Xbox X reviews with 1 star rating from OneStopShop, and post them in the games subreddit under the title \"real user feedback on Racing Wheel Overdrive for Xbox X\"",
+    "sites": [
+      "shopping",
+      "reddit"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "environment": "webarena",
+  "num_trajectories": 6768,
+  "tfidf_params": {
+    "max_features": null,
+    "min_df": 1,
+    "max_df": 0.95,
+    "ngram_range": [
+      1,
+      1
+    ],
+    "lowercase": true,
+    "strip_accents": "unicode",
+    "token_pattern": "(?u)\\b\\w+\\b"
+  },
+  "components": {
+    "full": {
+      "num_documents": 6768,
+      "num_non_empty": 6768,
+      "vocabulary_size": 18352
+    },
+    "goal": {
+      "num_documents": 6768,
+      "num_non_empty": 6768,
+      "vocabulary_size": 1612
+    },
+    "state": {
+      "num_documents": 6768,
+      "num_non_empty": 6768,
+      "vocabulary_size": 15517
+    },
+    "context": {
+      "num_documents": 6768,
+      "num_non_empty": 5725,
+      "vocabulary_size": 10791
+    }
+  }
+}

@@ -1,0 +1,344 @@
+# Configuration file for run_evaluation.py
+# Multi-Environment Evaluation Configuration
+
+# ============================================================================
+# GENERIC SETTINGS (apply to all environments)
+# ============================================================================
+
+# Environment Selection
+environment_name: "webarena"
+# Options: "alfworld", "webarena"
+
+# Retrieval Configuration
+retrieval:
+  frequency_strategy: "none"
+  retrieval_type: "trajectory"
+  agentic_until_step_k: null
+  retrieve_once_step_k: null
+  # Note: simulate_step_k is now specified per-episode in the evaluation set files
+  # (e.g., seen.json, validation_easy.json), not here in the config
+  no_retrieval_runs_file: "traj_retrieval/preprocess/no_retrieval_runs/{environment_name}_no_retrieval_runs_results.json"
+
+  # Available frequency_strategy options:
+  #
+  # 1. "none" - No retrieval (baseline)
+  #    - Agent runs without any retrieved trajectories
+  #    - Use for establishing baseline performance
+  #
+  # 2. "t0" - Retrieve once at the start (step 0)
+  #    - Performs retrieval before the first action
+  #    - Uses the same retrieved trajectory throughout the episode
+  #    - Also known as "t0" in some contexts
+  #
+  # 3. "every_10" - Retrieve every 10 steps
+  #    - Performs retrieval at steps 0, 10, 20, 30, etc.
+  #    - Balances computational cost with context freshness
+  #
+  # 4. "agentic" - LLM decides when to retrieve
+  #    - Uses an LLM planner to decide whether to retrieve at each step
+  #    - Most flexible but requires additional LLM calls
+  #    - Requires: sync_client/aclient and model_slug parameters
+  #
+  # 5. "agentic_until_tk" - Agentic retrieval before step k, then no retrieval
+  #    - Uses the LLM planner only while python_step < agentic_until_step_k
+  #    - From python_step >= agentic_until_step_k onward: no retrieval is performed
+  #    - Requires: retrieval.agentic_until_step_k (non-negative integer)
+  #
+  # 6. "retrieve_once_at_tk" - Force exactly one retrieval at step k
+  #    - Runs the agent normally with NO retrieval before step k
+  #    - At python_step == retrieval.retrieve_once_step_k: performs ONE retrieval
+  #    - After that: no further retrieval is performed
+  #    - Requires: retrieval.retrieve_once_step_k (non-negative integer)
+  #
+  # 7. "simulate_till_tk" - Simulate till step k, then retrieve once
+  #    - Fast-forwards through first k steps using pre-recorded actions from no_retrieval_runs_file
+  #    - At step k: performs ONE retrieval
+  #    - From step k+1 onwards: uses LLM with the retrieved trajectory
+  #    - Requires: no_retrieval_runs_file and per-episode simulate_step_k in evaluation set
+  #    - Use case: Efficient exploration of retrieval timing without running LLM for early steps
+  #
+  # 8. "pseudo_simulate_till_closest_tk" - Monitor observations, retrieve when matched (WebArena only)
+  #    - Starts with NO retrieval (pure LLM, no fast-forwarding)
+  #    - Monitors current observation at each step
+  #    - Loads target observation from step k in no_retrieval_runs_file
+  #    - When current observation matches target observation: performs ONE retrieval
+  #    - After retrieval: uses LLM with the retrieved trajectory for rest of episode (just like simulate_till_tk)
+  #    - Requires: no_retrieval_runs_file and per-episode simulate_step_k in evaluation set
+  #    - Use case: Dynamic retrieval based on state similarity rather than fixed step count
+  #    - ⚠️  Currently only supported for WebArena (use run_webarena.py)
+  #    - Similarity metric: Currently uses exact string match (env_handler.compute_observation_similarity)
+  #      Future: Can be enhanced with semantic similarity, tree edit distance, etc.
+
+# Experiment Type
+experiment_type: "action_string_direct"
+# Options: "action_id_mapping", "action_string_direct"
+
+# Concurrency Settings
+max_concurrent: 4
+# Maximum concurrent episodes (integer)
+
+max_steps: 30
+# Maximum steps per episode - can be:
+# - integer: use that exact number for all episodes (e.g., 40)
+# - "N_given": multiply step counts from evaluation_set by N (e.g., "1_given" for 1x, "2_given" for 2x, "3_given" for 3x)
+
+# Model Settings
+model: "openai/gpt-oss-20b"
+# OpenRouter model slug
+
+rps: 0.4
+# Requests per second (float)
+
+history_window: 3
+# LLM history window size (integer)
+
+global_python_cut_off_step: 150
+# Global hard limit on Python steps per episode (integer)
+# If Python steps exceed this limit, episode terminates regardless of max_steps
+# Set to null or a very high number (e.g., 99999) to effectively disable
+
+
+# Run ID
+evaluation_run_id: test_1_alfworld_train_only_reranking
+# Evaluation run ID for organizing outputs
+
+# Evaluation Set Slicing
+start_idx: 0
+# Starting index for evaluation set (0 = start from beginning, 0-indexed, inclusive)
+
+end_idx: -1
+# Ending index for evaluation set (-1 = go till end, 0-indexed, exclusive)
+
+# ============================================================================
+# ENVIRONMENT-SPECIFIC SETTINGS
+# ============================================================================
+
+environments:
+  # ALFWorld Configuration
+  alfworld:
+    evaluation_set: "traj_retrieval/preprocess/new_splits/alfworld/official_test/final_test_set.json"
+    # Path to ALFWorld evaluation set JSON file
+
+    indices_dir: "environments/train_only_lancedb/alfworld/lancedb_indices"
+
+    out_dir: "environments/alfworld/traj_logs"
+    # Base output directory for ALFWorld results
+
+    remove_actions_after_use: ["look"]
+    # Actions to prevent consecutive use in ALFWorld
+
+    task: null
+    # Optional: Run only specific task (null = run all tasks in evaluation set)
+    # ALFWorld tasks: "pick_two_obj_and_place", "clean_then_place_in_recep", "heat_then_place_in_recep", etc.
+
+    ultimate_fallback_action: "look"
+
+    agent_call_policy: "adaptive"
+    # Agent call policy
+
+    # ALFWorld Environment Configuration
+    env_config:
+      config_path: "environments/alfworld/base_config.yaml"
+      # Path to ALFWorld base_config.yaml file
+
+    # Environment-specific search configuration for LanceDB
+    search_config:
+      candidate_generation:
+        top_k: 100
+        # Number of candidate trajectories to retrieve for statistics
+
+        rank_retrieve: 1
+        # Which trajectory to use from top_k (1-indexed, so 1 = best/first, 2 = second-best, etc.)
+        # Must be <= top_k. The actual array index will be rank_retrieve - 1
+
+        prompt_top_n_enabled: false
+        # false: legacy behavior (feed only rank_retrieve to agent)
+        # true: feed top-N retrieved trajectories to agent prompt
+
+        prompt_top_n: 3
+        # Number of trajectories to feed when prompt_top_n_enabled=true (must be <= top_k)
+
+        query_embedding_field: key_embed
+        # Field in LanceDB to search against (default: key_embed)
+
+        # Filter Configuration
+        #
+        # IMPORTANT FOR ALFWORLD:
+        # For the retrieval scopes we currently use in experiments:
+        #   - "same_task"      → same task + cross variation
+        #   - "different_task" → cross task
+        #
+        # If you explicitly want exact same variation or same-task-different-variation
+        # behavior, verify that your ALFWorld index/evaluation set exposes the expected
+        # variation_idx values first.
+        filters:
+          base:
+            success: true
+            version: 1
+          diversity_strategy: null
+
+      # Future: Reranking stage configuration
+      reranker:
+        enabled: true
+        type: "llm_rankers_pairwise"
+        mode: "ltr"
+        stages: "llm,ltr"
+        stage_topk: "20,10"
+        provider: "local"
+        model: "meta-llama/Meta-Llama-3.1-8B-Instruct"
+        method: "heapsort"
+        api_key_env: null
+        api_key_file: null
+        prompt_template: null
+        debug_enabled: true
+        debug_log_path: "rerank_logs/ltr_rerank_debug_alfworld_medium_new_prompts.log"
+        debug_top_n: null
+        top_k: 20
+        max_pairs: null
+        batch_size: 8
+        temperature: 0.0
+        timeout_s: 60
+        feature_source: "runtime"
+        ltr_model_file: null
+        ltr_model_type: "svmrank"
+        feature_tsv: "ltr/data_out/alfworld/ltr_train.tsv"
+        missing_feature_policy: "min"
+        normalize_features: false
+        tfidf_base_dir: "traj_retrieval/evaluation/ltr_data"
+        model_base_dir: "ltr/ltr_models"
+        model_base_dir_llm_features: "ltr/ltr_models_llm_features"
+        candidate_text_fields:
+          - key_raw_goal
+          - key_raw_state
+          - key_raw_context
+          - key_raw_progress
+
+  # WebArena Configuration
+  webarena:
+    evaluation_set: "traj_retrieval/preprocess/new_splits/webarena/final_test_set.json"
+    # Path to WebArena evaluation set JSON file
+    # Each entry should contain 'config_file' pointing to WebArena config files
+    # Example: {"config_file": "/path/to/config_files/0.json", "max_steps": 30}
+
+    indices_dir: "environments/train_only_lancedb/webarena/lancedb_indices"
+
+    out_dir: "environments/webarena/traj_logs"
+    # Base output directory for WebArena results
+
+    remove_actions_after_use: []
+    # Actions to prevent consecutive use in WebArena (empty for WebArena)
+
+    task: null
+    # Optional: Run only specific task (null = run all tasks in evaluation set)
+    # WebArena tasks: "intent_0", "intent_1", etc. (based on intent_template_id)
+
+    ultimate_fallback_action: "none"
+    # Fallback action when agent fails to generate valid action
+
+    agent_call_policy: "only_normal"
+    # Agent call policy
+
+    # WebArena Environment Configuration
+    env_config:
+      headless: true
+      # Run browser in headless mode (true for production, false for debugging)
+
+      slow_mo: 0
+      # Slow down browser by specified milliseconds (0 = full speed, useful for debugging)
+
+      observation_type: "accessibility_tree"
+      # Observation format: "accessibility_tree" (structured) or "html" (raw HTML)
+      # accessibility_tree is recommended for better performance and structured data
+
+      action_set_tag: "id_accessibility_tree"
+      # Action format: "id_accessibility_tree" (element IDs) or "playwright" (raw Playwright)
+      # IMPORTANT: Must match the format used in trajectory data
+
+      viewport_width: 1280
+      # Browser viewport width in pixels
+
+      viewport_height: 720
+      # Browser viewport height in pixels
+
+      current_viewport_only: true
+      # Only observe current viewport (reduces observation size, recommended: true)
+
+      save_trace_enabled: false
+      # Enable Playwright tracing for debugging (creates trace files)
+
+      sleep_after_execution: 2.0
+      # Sleep duration after each action in seconds (allows pages to load)
+      # Recommended: 2.0-3.0 for real websites to ensure proper page loading
+
+      dom_settle_timeout: 10000
+      # Timeout for DOM to settle before extracting observation (milliseconds)
+      # Default WebArena timeout is often 500ms, which can cause issues with slow-loading pages
+      # Recommended: 10000 (10 seconds) to avoid timeout errors
+      # Note: If your WebArena version doesn't support this, it will fall back gracefully
+
+    # Environment-specific search configuration for LanceDB
+    search_config:
+      candidate_generation:
+        top_k: 100
+        # Number of candidate trajectories to retrieve for statistics
+
+        rank_retrieve: 1
+        # Which trajectory to use from top_k (1-indexed, so 1 = best/first, 2 = second-best, etc.)
+        # Must be <= top_k. The actual array index will be rank_retrieve - 1
+
+        prompt_top_n_enabled: false
+        # false: legacy behavior (feed only rank_retrieve to agent)
+        # true: feed top-N retrieved trajectories to agent prompt
+
+        prompt_top_n: 3
+        # Number of trajectories to feed when prompt_top_n_enabled=true (must be <= top_k)
+
+        query_embedding_field: key_embed
+
+        # Filter Configuration
+        #
+        # Common WebArena scopes:
+        #   - "same_task"      → same intent_template_id, any task_id
+        #   - "different_task" → different intent_template_id
+        filters:
+          base:
+            success: true
+            version: 1
+          diversity_strategy: null
+
+      # Future: Reranking stage configuration
+      reranker:
+        enabled: true
+        type: "llm_rankers_pairwise"
+        mode: "llm"
+        stages: "llm,ltr"
+        stage_topk: "20,10"
+        provider: "local"
+        model: "meta-llama/Meta-Llama-3.1-8B-Instruct"
+        method: "heapsort"
+        api_key_env: null
+        api_key_file: null
+        prompt_template: null
+        debug_enabled: true
+        debug_log_path: "rerank_logs/llm_rerank_debug.log"
+        debug_top_n: null
+        top_k: 20
+        max_pairs: null
+        batch_size: 8
+        temperature: 0.0
+        timeout_s: 60
+        feature_source: "runtime"
+        ltr_model_file: null
+        ltr_model_type: "lambdamart"
+        feature_tsv: "ltr/data_out/webarena/ltr_train.tsv"
+        missing_feature_policy: "min"
+        normalize_features: false
+        tfidf_base_dir: "traj_retrieval/evaluation/ltr_data"
+        model_base_dir: "ltr/ltr_models"
+        model_base_dir_llm_features: "ltr/ltr_models_llm_features"
+        candidate_text_fields:
+          - key_raw_goal
+          - key_raw_state
+          - key_raw_context
+          - key_raw_progress
+

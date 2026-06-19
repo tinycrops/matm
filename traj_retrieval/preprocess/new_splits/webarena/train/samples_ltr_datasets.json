@@ -1,0 +1,756 @@
+[
+  {
+    "task_name": "intent_template_id_1001",
+    "variation_id": "task_id_127",
+    "task_id": 127,
+    "intent_template_id": 1001,
+    "config_file": "environments/webarena/webarena/config_files/127.json",
+    "max_steps": 30,
+    "intent": "What brands appear most frequently among the top search terms?",
+    "sites": [
+      "shopping_admin"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_12",
+    "variation_id": "task_id_622",
+    "task_id": 622,
+    "intent_template_id": 12,
+    "config_file": "environments/webarena/webarena/config_files/622.json",
+    "max_steps": 30,
+    "intent": "Ask for advice about sexual harassment in a subreddit for relations",
+    "sites": [
+      "reddit"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_138",
+    "variation_id": "task_id_238",
+    "task_id": 238,
+    "intent_template_id": 138,
+    "config_file": "environments/webarena/webarena/config_files/238.json",
+    "max_steps": 30,
+    "intent": "I am doing a market survey for one stop market, show me the most expensive product from PS4 accessories category",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_138",
+    "variation_id": "task_id_242",
+    "task_id": 242,
+    "intent_template_id": 138,
+    "config_file": "environments/webarena/webarena/config_files/242.json",
+    "max_steps": 30,
+    "intent": "I am doing a market survey for one stop market, show me the most expensive product from Household Supplies category",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_145",
+    "variation_id": "task_id_431",
+    "task_id": 431,
+    "intent_template_id": 145,
+    "config_file": "environments/webarena/webarena/config_files/431.json",
+    "max_steps": 30,
+    "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_145",
+    "variation_id": "task_id_432",
+    "task_id": 432,
+    "intent_template_id": 145,
+    "config_file": "environments/webarena/webarena/config_files/432.json",
+    "max_steps": 30,
+    "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_145",
+    "variation_id": "task_id_433",
+    "task_id": 433,
+    "intent_template_id": 145,
+    "config_file": "environments/webarena/webarena/config_files/433.json",
+    "max_steps": 30,
+    "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_160",
+    "variation_id": "task_id_319",
+    "task_id": 319,
+    "intent_template_id": 160,
+    "config_file": "environments/webarena/webarena/config_files/319.json",
+    "max_steps": 30,
+    "intent": "How much refund I should expect from my order canlled in April 2022, including shipping fee",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_162",
+    "variation_id": "task_id_145",
+    "task_id": 145,
+    "intent_template_id": 162,
+    "config_file": "environments/webarena/webarena/config_files/145.json",
+    "max_steps": 30,
+    "intent": "How much I spent on cooking and food shopping during March 2022",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_163",
+    "variation_id": "task_id_690",
+    "task_id": 690,
+    "intent_template_id": 163,
+    "config_file": "environments/webarena/webarena/config_files/690.json",
+    "max_steps": 30,
+    "intent": "Draft an email to the shop owner via their contact us function for a coupon as they promised me a coupon last time",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_180",
+    "variation_id": "task_id_298",
+    "task_id": 298,
+    "intent_template_id": 180,
+    "config_file": "environments/webarena/webarena/config_files/298.json",
+    "max_steps": 30,
+    "intent": "Show the most recent completed order",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_186",
+    "variation_id": "task_id_465",
+    "task_id": 465,
+    "intent_template_id": 186,
+    "config_file": "environments/webarena/webarena/config_files/465.json",
+    "max_steps": 30,
+    "intent": "Add Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs, 81 Count to my wish list",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_191",
+    "variation_id": "task_id_794",
+    "task_id": 794,
+    "intent_template_id": 191,
+    "config_file": "environments/webarena/webarena/config_files/794.json",
+    "max_steps": 30,
+    "intent": "Change the delivery address for my most recent order to 4000 Forbes Ave, Pittsburgh, PA.",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_196",
+    "variation_id": "task_id_517",
+    "task_id": 517,
+    "intent_template_id": 196,
+    "config_file": "environments/webarena/webarena/config_files/517.json",
+    "max_steps": 30,
+    "intent": "Add this product to my wishlist",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_206",
+    "variation_id": "task_id_359",
+    "task_id": 359,
+    "intent_template_id": 206,
+    "config_file": "environments/webarena/webarena/config_files/359.json",
+    "max_steps": 30,
+    "intent": "Show me the order date for order number 148.",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_212",
+    "variation_id": "task_id_276",
+    "task_id": 276,
+    "intent_template_id": 212,
+    "config_file": "environments/webarena/webarena/config_files/276.json",
+    "max_steps": 30,
+    "intent": "Search for \"switch accessories\"",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_213",
+    "variation_id": "task_id_234",
+    "task_id": 234,
+    "intent_template_id": 213,
+    "config_file": "environments/webarena/webarena/config_files/234.json",
+    "max_steps": 30,
+    "intent": "Get the order number of my most recent on hold order ",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_22",
+    "variation_id": "task_id_407",
+    "task_id": 407,
+    "intent_template_id": 22,
+    "config_file": "environments/webarena/webarena/config_files/407.json",
+    "max_steps": 30,
+    "intent": "Upvote the newest post in deeplearning subreddit",
+    "sites": [
+      "reddit"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_222",
+    "variation_id": "task_id_23",
+    "task_id": 23,
+    "intent_template_id": 222,
+    "config_file": "environments/webarena/webarena/config_files/23.json",
+    "max_steps": 30,
+    "intent": "List out reviewers, if exist, who mention about good fingerprint resistant",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_222",
+    "variation_id": "task_id_24",
+    "task_id": 24,
+    "intent_template_id": 222,
+    "config_file": "environments/webarena/webarena/config_files/24.json",
+    "max_steps": 30,
+    "intent": "List out reviewers, if exist, who mention about price being unfair",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_23",
+    "variation_id": "task_id_652",
+    "task_id": 652,
+    "intent_template_id": 23,
+    "config_file": "environments/webarena/webarena/config_files/652.json",
+    "max_steps": 30,
+    "intent": "Reply to the post with my comment \"???\"",
+    "sites": [
+      "reddit"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_246",
+    "variation_id": "task_id_773",
+    "task_id": 773,
+    "intent_template_id": 246,
+    "config_file": "environments/webarena/webarena/config_files/773.json",
+    "max_steps": 30,
+    "intent": "Delete all pending negative reviews",
+    "sites": [
+      "shopping_admin"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_248",
+    "variation_id": "task_id_346",
+    "task_id": 346,
+    "intent_template_id": 248,
+    "config_file": "environments/webarena/webarena/config_files/346.json",
+    "max_steps": 30,
+    "intent": "How many reviews our shop received during 2022?",
+    "sites": [
+      "shopping_admin"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_249",
+    "variation_id": "task_id_216",
+    "task_id": 216,
+    "intent_template_id": 249,
+    "config_file": "environments/webarena/webarena/config_files/216.json",
+    "max_steps": 30,
+    "intent": "What are the key aspects that the customers don't like about Electra Bra Top",
+    "sites": [
+      "shopping_admin"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_268",
+    "variation_id": "task_id_704",
+    "task_id": 704,
+    "intent_template_id": 268,
+    "config_file": "environments/webarena/webarena/config_files/704.json",
+    "max_steps": 30,
+    "intent": "Today is 3/15/2023, generate a sales order report for last month",
+    "sites": [
+      "shopping_admin"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_288",
+    "variation_id": "task_id_12",
+    "task_id": 12,
+    "intent_template_id": 288,
+    "config_file": "environments/webarena/webarena/config_files/12.json",
+    "max_steps": 30,
+    "intent": "Tell me the the number of reviews that our store received by far that mention term \"satisfied\"",
+    "sites": [
+      "shopping_admin"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_291",
+    "variation_id": "task_id_357",
+    "task_id": 357,
+    "intent_template_id": 291,
+    "config_file": "environments/webarena/webarena/config_files/357.json",
+    "max_steps": 30,
+    "intent": "Checkout merge requests requiring my review",
+    "sites": [
+      "gitlab"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_292",
+    "variation_id": "task_id_476",
+    "task_id": 476,
+    "intent_template_id": 292,
+    "config_file": "environments/webarena/webarena/config_files/476.json",
+    "max_steps": 30,
+    "intent": "Set up a new, empty repository with the name awesome_llm_reading?",
+    "sites": [
+      "gitlab"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_316",
+    "variation_id": "task_id_787",
+    "task_id": 787,
+    "intent_template_id": 316,
+    "config_file": "environments/webarena/webarena/config_files/787.json",
+    "max_steps": 30,
+    "intent": "Tell me the number of followers of the contributor who has the most commits to branch main",
+    "sites": [
+      "gitlab"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_320",
+    "variation_id": "task_id_206",
+    "task_id": 206,
+    "intent_template_id": 320,
+    "config_file": "environments/webarena/webarena/config_files/206.json",
+    "max_steps": 30,
+    "intent": "How many commits did Eric make on 3/2?",
+    "sites": [
+      "gitlab"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_321",
+    "variation_id": "task_id_306",
+    "task_id": 306,
+    "intent_template_id": 321,
+    "config_file": "environments/webarena/webarena/config_files/306.json",
+    "max_steps": 30,
+    "intent": "How many commits did Anthony make between 08/2022-09/2022?",
+    "sites": [
+      "gitlab"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_329",
+    "variation_id": "task_id_294",
+    "task_id": 294,
+    "intent_template_id": 329,
+    "config_file": "environments/webarena/webarena/config_files/294.json",
+    "max_steps": 30,
+    "intent": "Show me the command to clone ChatGPT with SSH.",
+    "sites": [
+      "gitlab"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_330",
+    "variation_id": "task_id_536",
+    "task_id": 536,
+    "intent_template_id": 330,
+    "config_file": "environments/webarena/webarena/config_files/536.json",
+    "max_steps": 30,
+    "intent": "Follow ['ghost', 'R1kk3r', 'Abishek'] on Gitlab",
+    "sites": [
+      "gitlab"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_331",
+    "variation_id": "task_id_449",
+    "task_id": 449,
+    "intent_template_id": 331,
+    "config_file": "environments/webarena/webarena/config_files/449.json",
+    "max_steps": 30,
+    "intent": "set the homepage URL on my GitLab profile to https://helloworld.xyz",
+    "sites": [
+      "gitlab"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_36",
+    "variation_id": "task_id_152",
+    "task_id": 152,
+    "intent_template_id": 36,
+    "config_file": "environments/webarena/webarena/config_files/152.json",
+    "max_steps": 30,
+    "intent": "What is the minimum travel time by car from Schenley park to Upitt?",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_370",
+    "variation_id": "task_id_227",
+    "task_id": 227,
+    "intent_template_id": 370,
+    "config_file": "environments/webarena/webarena/config_files/227.json",
+    "max_steps": 30,
+    "intent": "What is the price range for products from EYZUTAK?",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_51",
+    "variation_id": "task_id_139",
+    "task_id": 139,
+    "intent_template_id": 51,
+    "config_file": "environments/webarena/webarena/config_files/139.json",
+    "max_steps": 30,
+    "intent": "What is the estimated driving time between the hometown of Joe Biden and Bridgeport?",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_52",
+    "variation_id": "task_id_370",
+    "task_id": 370,
+    "intent_template_id": 52,
+    "config_file": "environments/webarena/webarena/config_files/370.json",
+    "max_steps": 30,
+    "intent": "Pull up the description page of Carnegie Mellon University on Map",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_52",
+    "variation_id": "task_id_373",
+    "task_id": 373,
+    "intent_template_id": 52,
+    "config_file": "environments/webarena/webarena/config_files/373.json",
+    "max_steps": 30,
+    "intent": "Pull up the description page of Whole Foods near Carnegie Mellon on Map",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_64",
+    "variation_id": "task_id_84",
+    "task_id": 84,
+    "intent_template_id": 64,
+    "config_file": "environments/webarena/webarena/config_files/84.json",
+    "max_steps": 30,
+    "intent": "From my stay at DoubleTree by Hilton New York Downtown, what's the estimated driving time to reach Keens Steakhouse?",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_66",
+    "variation_id": "task_id_101",
+    "task_id": 101,
+    "intent_template_id": 66,
+    "config_file": "environments/webarena/webarena/config_files/101.json",
+    "max_steps": 30,
+    "intent": "Where is the nearest In-N-Out to Upitts, and what is the walking distance to it?",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_666",
+    "variation_id": "task_id_384",
+    "task_id": 384,
+    "intent_template_id": 666,
+    "config_file": "environments/webarena/webarena/config_files/384.json",
+    "max_steps": 30,
+    "intent": "List the customer names who complain about the quality of EYZUTAK phone cases",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_67",
+    "variation_id": "task_id_92",
+    "task_id": 92,
+    "intent_template_id": 67,
+    "config_file": "environments/webarena/webarena/config_files/92.json",
+    "max_steps": 30,
+    "intent": "Which US states border Vermont?",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_68",
+    "variation_id": "task_id_53",
+    "task_id": 53,
+    "intent_template_id": 68,
+    "config_file": "environments/webarena/webarena/config_files/53.json",
+    "max_steps": 30,
+    "intent": "How long does it take to walk from Univ of Pittsburgh to starbucks on Craig Street?",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_69",
+    "variation_id": "task_id_60",
+    "task_id": 60,
+    "intent_template_id": 69,
+    "config_file": "environments/webarena/webarena/config_files/60.json",
+    "max_steps": 30,
+    "intent": "Tell me the closest restaurant(s) to CMU Posner Hall",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_70",
+    "variation_id": "task_id_72",
+    "task_id": 72,
+    "intent_template_id": 70,
+    "config_file": "environments/webarena/webarena/config_files/72.json",
+    "max_steps": 30,
+    "intent": "What is the zip code of Yale University?",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_73",
+    "variation_id": "task_id_20",
+    "task_id": 20,
+    "intent_template_id": 73,
+    "config_file": "environments/webarena/webarena/config_files/20.json",
+    "max_steps": 30,
+    "intent": "Compare the difference in time for walking and driving route from Randyland to Carnegie Mellon University",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_77",
+    "variation_id": "task_id_36",
+    "task_id": 36,
+    "intent_template_id": 77,
+    "config_file": "environments/webarena/webarena/config_files/36.json",
+    "max_steps": 30,
+    "intent": "Check if the social security administration in pittsburgh can be reached in one hour by car from Carnegie Mellon University",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_77",
+    "variation_id": "task_id_38",
+    "task_id": 38,
+    "intent_template_id": 77,
+    "config_file": "environments/webarena/webarena/config_files/38.json",
+    "max_steps": 30,
+    "intent": "Check if the duquesne university in pittsburgh can be reached in one hour by car from pittsburgh airport",
+    "sites": [
+      "map"
+    ],
+    "source_split": "validation"
+  },
+  {
+    "task_name": "intent_template_id_12",
+    "variation_id": "task_id_620",
+    "task_id": 620,
+    "intent_template_id": 12,
+    "config_file": "environments/webarena/webarena/config_files/620.json",
+    "max_steps": 30,
+    "intent": "Ask for advice about deal with long-distance relationships in a subreddit for relations",
+    "sites": [
+      "reddit"
+    ],
+    "source_split": "excluded_final_test"
+  },
+  {
+    "task_name": "intent_template_id_186",
+    "variation_id": "task_id_469",
+    "task_id": 469,
+    "intent_template_id": 186,
+    "config_file": "environments/webarena/webarena/config_files/469.json",
+    "max_steps": 30,
+    "intent": "Add Light Blue Simple Summer New Low Heels Slippers for Women Fashion Chunky Heels Pointed Toe Wine Glasses Sandals Comfortable Walking Shoes Ladies All-Match Sexy Party Shoes to my wish list",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "excluded_final_test"
+  },
+  {
+    "task_name": "intent_template_id_299",
+    "variation_id": "task_id_339",
+    "task_id": 339,
+    "intent_template_id": 299,
+    "config_file": "environments/webarena/webarena/config_files/339.json",
+    "max_steps": 30,
+    "intent": "List all opened issues that report bugs",
+    "sites": [
+      "gitlab"
+    ],
+    "source_split": "excluded_final_test"
+  },
+  {
+    "task_name": "intent_template_id_156",
+    "variation_id": "task_id_440",
+    "task_id": 440,
+    "intent_template_id": 156,
+    "config_file": "environments/webarena/webarena/config_files/440.json",
+    "max_steps": 30,
+    "intent": "I previously ordered some a make up removal kit during summer 2022 and later cancelled. Can you reorder it for me?",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "excluded_final_test"
+  },
+  {
+    "task_name": "intent_template_id_23",
+    "variation_id": "task_id_410",
+    "task_id": 410,
+    "intent_template_id": 23,
+    "config_file": "environments/webarena/webarena/config_files/410.json",
+    "max_steps": 30,
+    "intent": "Reply to the first reply in this post with \"don't panic\"",
+    "sites": [
+      "reddit"
+    ],
+    "source_split": "excluded_final_test"
+  },
+  {
+    "task_name": "intent_template_id_79",
+    "variation_id": "task_id_8",
+    "task_id": 8,
+    "intent_template_id": 79,
+    "config_file": "environments/webarena/webarena/config_files/8.json",
+    "max_steps": 30,
+    "intent": "Tell me the full address of all international airports that are within a driving distance of 5 km to Carnegie Mellon University",
+    "sites": [
+      "map"
+    ],
+    "source_split": "excluded_final_test"
+  },
+  {
+    "task_name": "intent_template_id_208",
+    "variation_id": "task_id_324",
+    "task_id": 324,
+    "intent_template_id": 208,
+    "config_file": "environments/webarena/webarena/config_files/324.json",
+    "max_steps": 30,
+    "intent": "Show me the \"chairs\" listings by ascending price.",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "excluded_final_test"
+  },
+  {
+    "task_name": "intent_template_id_189",
+    "variation_id": "task_id_515",
+    "task_id": 515,
+    "intent_template_id": 189,
+    "config_file": "environments/webarena/webarena/config_files/515.json",
+    "max_steps": 30,
+    "intent": "Add a white computer desk to my wish list.",
+    "sites": [
+      "shopping"
+    ],
+    "source_split": "excluded_final_test"
+  },
+  {
+    "task_name": "intent_template_id_288",
+    "variation_id": "task_id_14",
+    "task_id": 14,
+    "intent_template_id": 288,
+    "config_file": "environments/webarena/webarena/config_files/14.json",
+    "max_steps": 30,
+    "intent": "Tell me the the number of reviews that our store received by far that mention term \"not useful\"",
+    "sites": [
+      "shopping_admin"
+    ],
+    "source_split": "excluded_final_test"
+  }
+]
