@@ -702,7 +702,10 @@ class ActionStringAsyncStrategy(AsyncBaseExperimentStrategy, HybridRerankingMixi
                     messages.append({"role": "user", "content": user_message})
 
                     return await aclient.chat.completions.create(
-                        model=model, messages=messages, temperature=0.0, max_tokens=2000
+                        model=model,
+                        messages=messages,
+                        temperature=0.0,
+                        max_completion_tokens=2000,
                     )
 
         def normal_parse(response):
@@ -764,7 +767,7 @@ class ActionStringAsyncStrategy(AsyncBaseExperimentStrategy, HybridRerankingMixi
                         model=model,
                         messages=messages,
                         temperature=0.0,
-                        max_tokens=2000,
+                        max_completion_tokens=2000,
                         response_format=self.get_structured_response_format(
                             filtered_actions
                         ),

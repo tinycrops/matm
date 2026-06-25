@@ -32,6 +32,10 @@ from tqdm import tqdm
 from pathlib import Path
 import glob
 
+REPO_ROOT = Path(__file__).resolve().parents[3]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
 # Import lancedb
 try:
     import lancedb
@@ -222,6 +226,12 @@ class LanceDBTrajectoryIndexer:
             # Process this trajectory file with deduplication
             entries, duplicates = self._process_trajectory_file(json_file)
             total_duplicates_skipped += duplicates
+
+            if TEST is not None:
+                remaining = TEST - total_entries_created - len(batch_entries)
+                if remaining <= 0:
+                    break
+                entries = entries[:remaining]
 
             batch_entries.extend(entries)
 
@@ -585,6 +595,8 @@ class LanceDBTrajectoryIndexer:
 
 def main():
     """Main function to create indices."""
+    global TEST
+
     import argparse
 
     parser = argparse.ArgumentParser(
@@ -595,7 +607,17 @@ def main():
         action="store_true",
         help="Drop the existing LanceDB table before rebuilding (default: refuse and exit).",
     )
+    parser.add_argument(
+        "--test-entries",
+        type=int,
+        default=None,
+        help="Build only this many LanceDB entries for a fast smoke index.",
+    )
     args = parser.parse_args()
+    if args.test_entries is not None:
+        if args.test_entries <= 0:
+            parser.error("--test-entries must be a positive integer")
+        TEST = args.test_entries
 
     print("=" * 70)
     print("AlfWorld Train-Only LanceDB Trajectory Indexer")

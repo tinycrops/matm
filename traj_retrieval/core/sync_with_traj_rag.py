@@ -65,7 +65,7 @@ from .retrieval_handler_sync import SyncRetrievalHandler
 
 class SimpleSyncHTTPClient:
     """
-    Simple synchronous HTTP client for OpenRouter API.
+    Simple synchronous HTTP client for the OpenAI Chat Completions API.
 
     This mimics the OpenAI client interface but uses requests library
     to avoid importing asyncio (which breaks Playwright sync API).
@@ -74,7 +74,7 @@ class SimpleSyncHTTPClient:
     of debug info structures.
     """
 
-    def __init__(self, api_key: str, base_url: str = "https://openrouter.ai/api/v1"):
+    def __init__(self, api_key: str, base_url: str = "https://api.openai.com/v1"):
         self.api_key = api_key
         self.base_url = base_url
         # Pass api_key and base_url directly to avoid circular reference
@@ -97,9 +97,10 @@ class SimpleSyncHTTPClient:
                 messages: List[Dict],
                 temperature: float = 0.0,
                 max_tokens: int = 2000,
+                max_completion_tokens: Optional[int] = None,
                 response_format: Optional[Dict] = None,
             ):
-                """Make a synchronous API call to OpenRouter."""
+                """Make a synchronous API call to OpenAI."""
                 headers = {
                     "Authorization": f"Bearer {self.api_key}",
                     "Content-Type": "application/json",
@@ -109,7 +110,7 @@ class SimpleSyncHTTPClient:
                     "model": model,
                     "messages": messages,
                     "temperature": temperature,
-                    "max_tokens": max_tokens,
+                    "max_completion_tokens": max_completion_tokens or max_tokens,
                 }
 
                 if response_format:
@@ -239,9 +240,7 @@ def run_episode_sync(
     max_steps = metadata.get("max_steps", 50)
 
     # Initialize simple synchronous HTTP client (avoids asyncio import from openai library)
-    sync_client = SimpleSyncHTTPClient(
-        api_key=api_key, base_url="https://openrouter.ai/api/v1"
-    )
+    sync_client = SimpleSyncHTTPClient(api_key=api_key)
 
     # Get strategy for action selection (SYNC version)
     strategy = get_experiment_strategy(experiment_type, use_sync=True)

@@ -28,6 +28,9 @@ from .utils.metrics_util import (
 )
 from openai import AsyncOpenAI
 
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
 ########## Uncomment this when running AlfWorld on Babel ##########
 import shutil
 
@@ -157,7 +160,7 @@ class FlatEvaluationRunner:
         evaluation_run_id: str = "random",
         max_concurrent: int = 10,
         max_steps=None,  # Can be int or "N_given" (e.g., "1_given", "2_given")
-        model: str = "openai/gpt-oss-20b:free",
+        model: str = "gpt-5.4-mini",
         specific_task: str = None,
         rps: float = 1 / 2.5,
         history_window: int = 10,
@@ -660,18 +663,16 @@ class FlatEvaluationRunner:
     async def _initialize_shared_resources(self):
         """Initialize shared resources that will be used by all episodes."""
         # Load environment variables
-        load_dotenv()
-        api_key = os.environ.get("OPENROUTER_API_KEY")
+        load_dotenv(REPO_ROOT / ".env")
+        api_key = os.environ.get("OPENAI_API_KEY")
         if not api_key:
-            raise RuntimeError("OPENROUTER_API_KEY is not set.")
+            raise RuntimeError("OPENAI_API_KEY is not set.")
 
         # Validate retrieval resources BEFORE creating manager (fail-fast)
         self._validate_retrieval_resources()
 
         # Create shared resources
-        self.aclient = AsyncOpenAI(
-            base_url="https://openrouter.ai/api/v1", api_key=api_key
-        )
+        self.aclient = AsyncOpenAI(api_key=api_key)
         self.limiter = AsyncRateLimiter(rps=self.rps)
         self.requests_sem = asyncio.Semaphore(2)  # LLM concurrency within each episode
         self._online_memory_commit_lock = asyncio.Lock()

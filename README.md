@@ -171,6 +171,17 @@ matm/
 
 ### Setup
 
+For a project-local setup that handles the legacy ALFWorld dependency quirks,
+downloads/stages the released traces, and builds a small smoke LanceDB index:
+
+```bash
+./setup.sh
+```
+
+Set `OPENAI_API_KEY` in `.env` before running live model evaluations. Useful
+setup toggles include `FORCE_INDEX=1 ./setup.sh` to rebuild the smoke index and
+`BUILD_SMOKE_INDEX=0 ./setup.sh` to install dependencies/data only.
+
 1. **Clone the repository**:
 
 ```bash
@@ -215,7 +226,7 @@ MATM uses environment variables and YAML configuration files.
 | Variable | Description | Default |
 |---|---|---|
 | `MATM_DATA_ROOT` | Root directory for environment data, indices, and trajectory logs | `./environments` |
-| `OPENROUTER_API_KEY` | API key for OpenRouter (required for LLM evaluation) | — |
+| `OPENAI_API_KEY` | API key for the OpenAI API (required for LLM evaluation) | — |
 | `WEBARENA_HOST` | Hostname of your WebArena deployment (required for WebArena) | — |
 | `WEBARENA_RENEW_WEBARENA_PATH` | Absolute path to your local clone of the upstream `webarena` repo (required for WebArena) | — |
 | `ONLINE_MEMORY_ENABLED` | Set to `1` to push successful trajectories into the shared index at runtime | `0` |
@@ -307,7 +318,7 @@ Ensure `indices_dir` in the YAML matches your built index (see
 python traj_retrieval/run_evaluation.py \
     --environment-name alfworld \
     --strategy none \
-    --model "openai/gpt-oss-20b"
+    --model "gpt-5.4-mini"
 ```
 
 ### Single-Stage Retrieval (Dense Only)

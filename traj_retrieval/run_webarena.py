@@ -40,6 +40,9 @@ from .utils.metrics_util import (
 )
 
 
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
+
 class WebArenaRunner:
     """
     Synchronous runner for WebArena episodes.
@@ -496,10 +499,10 @@ class WebArenaRunner:
 
     def _initialize_resources(self):
         """Initialize resources (API key, retrieval manager)."""
-        load_dotenv()
-        self.api_key = os.environ.get("OPENROUTER_API_KEY")
+        load_dotenv(REPO_ROOT / ".env")
+        self.api_key = os.environ.get("OPENAI_API_KEY")
         if not self.api_key:
-            raise RuntimeError("OPENROUTER_API_KEY is not set.")
+            raise RuntimeError("OPENAI_API_KEY is not set.")
 
         # Validate retrieval resources BEFORE creating manager (fail-fast)
         self._validate_retrieval_resources()

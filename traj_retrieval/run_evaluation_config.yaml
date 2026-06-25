@@ -83,8 +83,8 @@ max_steps: 30
 # - "N_given": multiply step counts from evaluation_set by N (e.g., "1_given" for 1x, "2_given" for 2x, "3_given" for 3x)
 
 # Model Settings
-model: "openai/gpt-oss-20b"
-# OpenRouter model slug
+model: "gpt-5.4-mini"
+# OpenAI API model ID
 
 rps: 0.4
 # Requests per second (float)
@@ -341,4 +341,3 @@ environments:
           - key_raw_state
           - key_raw_context
           - key_raw_progress
-
