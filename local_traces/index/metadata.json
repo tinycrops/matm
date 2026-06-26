@@ -1,0 +1,35 @@
+{
+  "backend": "tfidf_svd_dense",
+  "built_at": "2026-06-26T00:15:10.534520+00:00",
+  "chunk_files": [
+    "/home/ath/matm/local_traces/extracted/ollama-containers-42d53d4f/ao_chunks_l5.jsonl",
+    "/home/ath/matm/local_traces/extracted/vibe-stack-94967c56/ao_chunks_l5.jsonl",
+    "/home/ath/matm/local_traces/extracted/vibe-stack-a8876efb/ao_chunks_l5.jsonl"
+  ],
+  "chunks": 243,
+  "dim": 128,
+  "index_dir": "/home/ath/matm/local_traces/index",
+  "outcome_counts": {
+    "error": 13,
+    "ok": 230
+  },
+  "root": "/home/ath/matm/local_traces/extracted",
+  "sessions": [
+    "42d53d4f-1922-4e19-934b-5f20cb9bcdab",
+    "94967c56-e4f5-4267-804b-16cb3cd819ec",
+    "a8876efb-9c84-4bcd-9af5-dce8e2f61e83"
+  ],
+  "tool_counts": {
+    "AskUserQuestion": 2,
+    "Bash": 129,
+    "Edit": 38,
+    "Read": 33,
+    "ScheduleWakeup": 3,
+    "TaskCreate": 4,
+    "TaskUpdate": 6,
+    "ToolSearch": 6,
+    "WebFetch": 5,
+    "WebSearch": 1,
+    "Write": 16
+  }
+}

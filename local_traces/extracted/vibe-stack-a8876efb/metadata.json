@@ -1,0 +1,30 @@
+{
+  "action_observation_chunks": 76,
+  "action_observations": 76,
+  "chunks": 209,
+  "event_counts": {
+    "assistant_text": 44,
+    "session_control": 1,
+    "tool_call": 76,
+    "tool_result": 76,
+    "user_command": 1,
+    "user_feedback": 11
+  },
+  "model_counts": {
+    "claude-sonnet-4-6": 120
+  },
+  "records": 388,
+  "session_id": "a8876efb-9c84-4bcd-9af5-dce8e2f61e83",
+  "source": "local_traces/claude/lil-blue/-home-ath/a8876efb-9c84-4bcd-9af5-dce8e2f61e83.jsonl",
+  "steps": 209,
+  "tool_counts": {
+    "Bash": 46,
+    "Edit": 8,
+    "Read": 10,
+    "ScheduleWakeup": 3,
+    "ToolSearch": 1,
+    "WebFetch": 4,
+    "Write": 4
+  },
+  "window": 5
+}

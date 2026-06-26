@@ -1,0 +1,26 @@
+{
+  "action_observation_chunks": 53,
+  "action_observations": 53,
+  "chunks": 153,
+  "event_counts": {
+    "assistant_text": 42,
+    "tool_call": 53,
+    "tool_result": 53,
+    "user_feedback": 5
+  },
+  "model_counts": {
+    "claude-opus-4-8": 95
+  },
+  "records": 294,
+  "session_id": "42d53d4f-1922-4e19-934b-5f20cb9bcdab",
+  "source": "local_traces/claude/lil-blue/-home-ath-projects/42d53d4f-1922-4e19-934b-5f20cb9bcdab.jsonl",
+  "steps": 153,
+  "tool_counts": {
+    "AskUserQuestion": 1,
+    "Bash": 41,
+    "ToolSearch": 1,
+    "WebFetch": 1,
+    "Write": 9
+  },
+  "window": 5
+}

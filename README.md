@@ -178,6 +178,37 @@ downloads/stages the released traces, and builds a small smoke LanceDB index:
 ./setup.sh
 ```
 
+## Personal MATM Trace Application
+
+This checkout includes a small local proof that extracting real Claude/Codex
+work traces is useful for the VibeThinker cluster. The trace store under
+`local_traces/` contains recovered sessions, durable scripts, memory notes, and
+a TF-IDF/SVD pilot index. Use `matm_apply.py` to turn a live task description
+into an operator memory pack:
+
+```bash
+python3 scripts/matm_apply.py \
+  "deploy VibeThinker on the vibecluster with sudo-free containers and verify endpoints"
+```
+
+Save a pack for handoff:
+
+```bash
+python3 scripts/matm_apply.py --save \
+  "debug VibeThinker only outputting two tokens in ollama or a container"
+```
+
+Run the replay smoke checks that prove the current trace store retrieves the
+right scar tissue for three cluster tasks:
+
+```bash
+python3 scripts/matm_eval_replay.py --out-dir local_traces/applied
+```
+
+The generated report lives at `local_traces/applied/replay_report.md`. Current
+checks cover containerized VibeThinker deployment, the two-token/template bug,
+and the distributed VibeThinker + qwen-coder reasoning-trace truncation issue.
+
 Set `OPENAI_API_KEY` in `.env` before running live model evaluations. Useful
 setup toggles include `FORCE_INDEX=1 ./setup.sh` to rebuild the smoke index and
 `BUILD_SMOKE_INDEX=0 ./setup.sh` to install dependencies/data only.

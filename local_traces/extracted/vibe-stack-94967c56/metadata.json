@@ -1,0 +1,33 @@
+{
+  "action_observation_chunks": 114,
+  "action_observations": 114,
+  "chunks": 317,
+  "event_counts": {
+    "assistant_text": 73,
+    "session_control": 3,
+    "tool_call": 114,
+    "tool_result": 114,
+    "user_command": 2,
+    "user_feedback": 11
+  },
+  "model_counts": {
+    "<synthetic>": 1,
+    "claude-opus-4-8": 186
+  },
+  "records": 569,
+  "session_id": "94967c56-e4f5-4267-804b-16cb3cd819ec",
+  "source": "local_traces/claude/lil-blue/-home-ath/94967c56-e4f5-4267-804b-16cb3cd819ec.jsonl",
+  "steps": 317,
+  "tool_counts": {
+    "AskUserQuestion": 1,
+    "Bash": 42,
+    "Edit": 30,
+    "Read": 23,
+    "TaskCreate": 4,
+    "TaskUpdate": 6,
+    "ToolSearch": 4,
+    "WebSearch": 1,
+    "Write": 3
+  },
+  "window": 5
+}

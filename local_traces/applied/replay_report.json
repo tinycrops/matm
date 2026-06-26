@@ -1,0 +1,75 @@
+{
+  "built_at": "2026-06-26T00:28:18.853043+00:00",
+  "passed": 3,
+  "results": [
+    {
+      "artifact_hits": [
+        "deploy-vibethinker.sh",
+        "vibethinker-containerized-inference.md"
+      ],
+      "hits": 7,
+      "missing_artifacts": [],
+      "missing_sessions": [],
+      "missing_terms": [],
+      "name": "containerized_vibethinker",
+      "pack": "local_traces/applied/containerized_vibethinker.md",
+      "passed": true,
+      "query": "deploy VibeThinker on the vibecluster with sudo-free containers and verify endpoints",
+      "required": 7,
+      "session_hits": [
+        "42d53d4f-1922-4e19-934b-5f20cb9bcdab"
+      ],
+      "term_hits": [
+        "llama.cpp",
+        "8080",
+        "VibeThinker",
+        "sudo-free"
+      ]
+    },
+    {
+      "artifact_hits": [
+        "Modelfile.vibethinker",
+        "vibethinker-is-the-workload.md"
+      ],
+      "hits": 6,
+      "missing_artifacts": [],
+      "missing_sessions": [],
+      "missing_terms": [],
+      "name": "two_token_vibethinker",
+      "pack": "local_traces/applied/two_token_vibethinker.md",
+      "passed": true,
+      "query": "debug VibeThinker only outputting two tokens in ollama or a container",
+      "required": 6,
+      "session_hits": [
+        "42d53d4f-1922-4e19-934b-5f20cb9bcdab"
+      ],
+      "term_hits": [
+        "ChatML",
+        "template",
+        "VibeThinker"
+      ]
+    },
+    {
+      "artifact_hits": [],
+      "hits": 5,
+      "missing_artifacts": [],
+      "missing_sessions": [],
+      "missing_terms": [],
+      "name": "full_reasoning_eval",
+      "pack": "local_traces/applied/full_reasoning_eval.md",
+      "passed": true,
+      "query": "run distributed VibeThinker plus qwen coder eval without truncating reasoning",
+      "required": 5,
+      "session_hits": [
+        "94967c56-e4f5-4267-804b-16cb3cd819ec"
+      ],
+      "term_hits": [
+        "thinking",
+        "trace",
+        "caller",
+        "truncated"
+      ]
+    }
+  ],
+  "tasks": 3
+}
