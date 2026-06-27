@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude MATM Extraction"
+  short_description: "Extract MATM datasets from Claude traces"
+  default_prompt: "Use $claude-matm-extraction to extract a MATM-style dataset from a raw Claude JSONL conversation."
