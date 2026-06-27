@@ -1,35 +1,57 @@
 {
   "backend": "tfidf_svd_dense",
-  "built_at": "2026-06-26T00:15:10.534520+00:00",
+  "built_at": "2026-06-27T23:46:19.821831+00:00",
   "chunk_files": [
-    "/home/ath/matm/local_traces/extracted/ollama-containers-42d53d4f/ao_chunks_l5.jsonl",
-    "/home/ath/matm/local_traces/extracted/vibe-stack-94967c56/ao_chunks_l5.jsonl",
-    "/home/ath/matm/local_traces/extracted/vibe-stack-a8876efb/ao_chunks_l5.jsonl"
+    "local_traces/extracted/g4-hackathon-71645e09/ao_chunks_l5.jsonl",
+    "local_traces/extracted/gemma-challenge-public-coordination/ao_chunks_l5.jsonl",
+    "local_traces/extracted/gemma-e4b-a10g-8cfec61f/ao_chunks_l5.jsonl",
+    "local_traces/extracted/gemma-orchestrator-b6b02deb/ao_chunks_l5.jsonl",
+    "local_traces/extracted/gemma4-thinking-traces-e629efed/ao_chunks_l5.jsonl",
+    "local_traces/extracted/ollama-containers-42d53d4f/ao_chunks_l5.jsonl",
+    "local_traces/extracted/vibe-stack-94967c56/ao_chunks_l5.jsonl",
+    "local_traces/extracted/vibe-stack-a8876efb/ao_chunks_l5.jsonl"
   ],
-  "chunks": 243,
+  "chunks": 3044,
   "dim": 128,
-  "index_dir": "/home/ath/matm/local_traces/index",
+  "index_dir": "local_traces/index",
   "outcome_counts": {
-    "error": 13,
-    "ok": 230
+    "error": 31,
+    "invalid": 86,
+    "observed": 1469,
+    "ok": 663,
+    "pending": 511,
+    "referenced": 246,
+    "valid": 38
   },
-  "root": "/home/ath/matm/local_traces/extracted",
+  "root": "local_traces/extracted",
   "sessions": [
     "42d53d4f-1922-4e19-934b-5f20cb9bcdab",
+    "71645e09-f9b4-4c80-a66c-096ff7022669",
+    "8cfec61f-5308-4414-98c1-c433b98ef1ed",
     "94967c56-e4f5-4267-804b-16cb3cd819ec",
-    "a8876efb-9c84-4bcd-9af5-dce8e2f61e83"
+    "a8876efb-9c84-4bcd-9af5-dce8e2f61e83",
+    "b6b02deb-794b-426b-a684-c0bf2f7eecae",
+    "e629efed-d36a-4b42-a149-35f421314e08",
+    "gemma-challenge-public-coordination"
   ],
   "tool_counts": {
-    "AskUserQuestion": 2,
-    "Bash": 129,
-    "Edit": 38,
-    "Read": 33,
+    "AskUserQuestion": 12,
+    "Bash": 354,
+    "Edit": 102,
+    "Monitor": 3,
+    "Read": 65,
     "ScheduleWakeup": 3,
-    "TaskCreate": 4,
-    "TaskUpdate": 6,
-    "ToolSearch": 6,
-    "WebFetch": 5,
-    "WebSearch": 1,
-    "Write": 16
+    "TaskCreate": 19,
+    "TaskStop": 2,
+    "TaskUpdate": 29,
+    "ToolSearch": 19,
+    "WebFetch": 15,
+    "WebSearch": 12,
+    "Write": 59,
+    "message": 1638,
+    "result": 635,
+    "taskforce_file": 44,
+    "taskforce_note": 28,
+    "taskforce_readme": 5
   }
 }

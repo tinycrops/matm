@@ -1,0 +1,31 @@
+{
+  "action_observation_chunks": 141,
+  "action_observations": 141,
+  "chunks": 397,
+  "event_counts": {
+    "assistant_text": 100,
+    "tool_call": 141,
+    "tool_result": 141,
+    "user_feedback": 15
+  },
+  "model_counts": {
+    "claude-opus-4-8": 241
+  },
+  "records": 736,
+  "session_id": "e629efed-d36a-4b42-a149-35f421314e08",
+  "source": "/home/ath/.claude/projects/-var-local-shared/e629efed-d36a-4b42-a149-35f421314e08.jsonl",
+  "steps": 397,
+  "tool_counts": {
+    "AskUserQuestion": 7,
+    "Bash": 62,
+    "Edit": 12,
+    "Read": 11,
+    "TaskCreate": 6,
+    "TaskUpdate": 9,
+    "ToolSearch": 4,
+    "WebFetch": 9,
+    "WebSearch": 9,
+    "Write": 12
+  },
+  "window": 5
+}
